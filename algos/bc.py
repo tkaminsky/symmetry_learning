@@ -157,6 +157,7 @@ def traj_to_sa_pairs(trajectories):
     return states, actions
 
 def bc(env, model):
+    # Number of trajectory samples to use for training/eval
     budget = 100
     eval_budget = 50
 
@@ -164,10 +165,12 @@ def bc(env, model):
     accuracies = []
     test_losses = []
     test_accuracies = []
-    num_epochs = 200
-    batch_size = 128
+    # Number of times to go over the dataset with SGD
+    num_epochs = 100
+    batch_size = 64
     learning_rate = 1e-3
 
+    # Number of stepf of GD to perform on each epoch
     NUM_ITERATIONS = 1000
 
     print("Gathering BC Training data . . .")
@@ -200,8 +203,6 @@ def bc(env, model):
     print("Gathered BC Test data.")
 
     print("Dataset size: " + str(states.shape[0]) + " Test dataset size: " + str(test_states.shape[0]))
-
-    
     
     dataset = ImageDataset(states, actions, transform=image_transforms)
 
@@ -222,12 +223,14 @@ def bc(env, model):
     total_size = states.shape[0]
     total_test_size = test_states.shape[0]
 
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
+
 
     # Train the model
     for epoch in range(num_epochs):
 
         # Shuffle dataset
-        dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
+        # dataloader.shuffle()
         loss_mean = 0
         accuracy_mean = 0
         count = 0
@@ -282,7 +285,7 @@ def bc(env, model):
             break
 
 
-        # # Compute the average loss (loss over num_batches)
+        # Compute the average loss (loss over num_batches)
         loss_mean /= count
 
         # # Compute the average accuracy
@@ -303,6 +306,7 @@ def bc(env, model):
         accuracy_mean = 0
 
         if epoch % 5 == 0:
+            model.eval()
             with torch.no_grad():
                 # Evaluate the model
                 # Set the model to evaluation mode
@@ -318,9 +322,6 @@ def bc(env, model):
 
                     # Compute the loss
                     loss = loss_fn(outputs, actions)
-
-                    # Update the weights
-                    optimizer.step()
 
                     loss_mean += loss.item() #* (len(actions) / total_test_size)
 
@@ -343,6 +344,8 @@ def bc(env, model):
                 test_accuracies.append(accuracy_mean)
 
             iter_count += 1
+
+            model.train()
 
 
     # Save the model

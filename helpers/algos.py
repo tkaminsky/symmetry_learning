@@ -46,7 +46,7 @@ def trivial(P):
         radius = np.linalg.norm(center - p1)
         return center, radius
 
-
+# Finds the smallest enclosing circle of a set of points P
 def welzl(P, R):
     if len(P) == 0 or len(R) == 3:
         return trivial(R)
@@ -67,11 +67,13 @@ def welzl(P, R):
     return welzl(P, R)
 
 
+# Project u onto v
 def proj(u, v):
     # Project u onto v
     return (np.dot(u, v) / np.sqrt(np.dot(v, v)))
 
 
+# Find the distance from a point to a line
 def point_line_distance(p, p1, p2):
     # Find the distance from a point to a line
     p = np.array(p)

@@ -2,6 +2,10 @@ from blueprints import *
 from objects.nested_shape import NestedShape
 import matplotlib.pyplot as plt
 
+####################################################################################################
+# Visualizes a sample of a nested shape, with bounding circles for each
+####################################################################################################
+
 blueprint = generate_nested_regular_polygon_blueprint(5, size=3.0)
 # blueprint = strange_polygon_blueprint
 

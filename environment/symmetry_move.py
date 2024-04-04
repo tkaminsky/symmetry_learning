@@ -9,6 +9,10 @@ from helpers.algos import nested_polygon_polygon_distance
 from objects.nested_shape import NestedShape
 from blueprints import generate_nested_regular_polygon_blueprint
 
+####################################################################################################
+# Symmetry move is a depricated environment that was used to test some initial functionality.
+####################################################################################################
+
 ACTION_TO_DIR = {
     0: np.array([0, 1]),
     1: np.array([1, 0]),
