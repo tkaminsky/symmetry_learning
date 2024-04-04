@@ -1,0 +1,238 @@
+I moved the objects to:
+[4.  7.2]
+[5.4 2.4]
+I moved the objects to:
+[4.3 3.2]
+[2.5 5.9]
+I moved the objects to:
+[5.3 5.4]
+[4.2 7.7]
+I moved the objects to:
+[2.1 4.3]
+[6.2 4.7]
+I moved the objects to:
+[2.2 2.7]
+[6.6 4.3]
+I moved the objects to:
+[7.9 6.4]
+[7.3 6. ]
+I moved the objects to:
+[4.7 4.3]
+[5.5 4. ]
+I moved the objects to:
+[7.9 5.5]
+[5.6 4. ]
+I moved the objects to:
+[4.6 4.7]
+[5.6 5.5]
+I moved the objects to:
+[5.5 7.7]
+[2.  6.1]
+I moved the objects to:
+[6.  7.5]
+[3.2 2.8]
+I moved the objects to:
+[4.6 5.4]
+[4.2 3. ]
+I moved the objects to:
+[5.6 2.8]
+[7.9 2.6]
+I moved the objects to:
+[3.7 7.9]
+[5.  5.3]
+I moved the objects to:
+[4.2 6.6]
+[4.  3.7]
+I moved the objects to:
+[2.1 3.7]
+[6.6 4.3]
+I moved the objects to:
+[5.3 6.8]
+[3.9 2.3]
+I moved the objects to:
+[7.7 7.6]
+[6.3 7.2]
+I moved the objects to:
+[3.  2.4]
+[3.9 5.1]
+I moved the objects to:
+[5.1 7. ]
+[7.2 7.9]
+I moved the objects to:
+[3.3 2.1]
+[6.4 4.2]
+I moved the objects to:
+[6.6 2.3]
+[6.5 3.9]
+I moved the objects to:
+[6.5 4.3]
+[2.9 6.7]
+I moved the objects to:
+[3.8 5.8]
+[5.5 5.9]
+I moved the objects to:
+[7.7 5.5]
+[4.3 4.2]
+I moved the objects to:
+[3. 4.]
+[6.4 3. ]
+I moved the objects to:
+[7.3 6.4]
+[5.5 7.3]
+I moved the objects to:
+[5.  3.6]
+[5.2 6.5]
+I moved the objects to:
+[6.5 2.8]
+[2.3 5.3]
+I moved the objects to:
+[7.6 6.6]
+[4.9 4.1]
+I moved the objects to:
+[6.3 2.5]
+[7.5 6.8]
+I moved the objects to:
+[3.1 4.3]
+[5.  7.6]
+I moved the objects to:
+[7.4 7.2]
+[4.9 5.2]
+I moved the objects to:
+[2.3 5.9]
+[2.8 6.7]
+I moved the objects to:
+[6.9 5. ]
+[2.7 3.1]
+I moved the objects to:
+[2.  4.5]
+[6.3 4.9]
+I moved the objects to:
+[5.2 4.4]
+[4.9 3.6]
+I moved the objects to:
+[2.2 6.7]
+[4.3 7.8]
+I moved the objects to:
+[4.2 7.6]
+[7.9 6.1]
+I moved the objects to:
+[3.9 2. ]
+[3.9 4.5]
+I moved the objects to:
+[6.9 7.6]
+[5.6 5. ]
+I moved the objects to:
+[2.6 3.3]
+[7.8 4.5]
+I moved the objects to:
+[6.1 7.8]
+[5.3 3.1]
+I moved the objects to:
+[6.6 7.8]
+[3.2 2.5]
+I moved the objects to:
+[7.4 2. ]
+[2.7 6.7]
+I moved the objects to:
+[5.6 7.2]
+[6.8 6.7]
+I moved the objects to:
+[7.2 7.7]
+[7.8 5.4]
+I moved the objects to:
+[6.6 5.7]
+[6.5 6.5]
+I moved the objects to:
+[5.  3.5]
+[2.7 6.9]
+I moved the objects to:
+[6.  7.8]
+[6.  5.7]
+I moved the objects to:
+[4.1 7.7]
+[2.6 3.6]
+I moved the objects to:
+[3.7 7.2]
+[3.8 3.2]
+I moved the objects to:
+[4.5 7.6]
+[5.4 3.8]
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\transforms\functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+Epoch 0, Loss 336.5531921386719, Accuracy 0.35416666666666663
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\transforms\functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+Test Loss 0.0289003886282444, Test Accuracy 0.2075388418079096
+Epoch 1, Loss 0.6935129761695862, Accuracy 0.4854166666666667
+Epoch 2, Loss 0.7005056142807007, Accuracy 0.48125
+Epoch 3, Loss 0.6856188178062439, Accuracy 0.4875
+Epoch 4, Loss 0.7113445997238159, Accuracy 0.4791666666666667
+Epoch 5, Loss 0.6959836483001709, Accuracy 0.4833333333333333
+Test Loss 0.028662189841270447, Test Accuracy 0.27051553672316386
+Epoch 6, Loss 0.6530627012252808, Accuracy 0.4833333333333333
+Epoch 7, Loss 0.6683644652366638, Accuracy 0.48125
+Epoch 8, Loss 0.7552229166030884, Accuracy 0.46875
+Epoch 9, Loss 0.6227357387542725, Accuracy 0.4875
+Epoch 10, Loss 0.5867040753364563, Accuracy 0.49375
+Test Loss 0.030807796865701675, Test Accuracy 0.270603813559322
+Epoch 11, Loss 0.6996041536331177, Accuracy 0.48125
+Epoch 12, Loss 0.6943832039833069, Accuracy 0.48125
+Epoch 13, Loss 0.7363787889480591, Accuracy 0.475
+Epoch 14, Loss 0.6577678322792053, Accuracy 0.4875
+Epoch 15, Loss 0.7241727113723755, Accuracy 0.4770833333333333
+Test Loss 0.029754996299743652, Test Accuracy 0.27090395480225987
+Epoch 16, Loss 0.744214653968811, Accuracy 0.4729166666666667
+Epoch 17, Loss 0.7359050512313843, Accuracy 0.475
+Epoch 18, Loss 0.6356160640716553, Accuracy 0.4895833333333333
+Epoch 19, Loss 0.6772884726524353, Accuracy 0.4833333333333333
+Epoch 20, Loss 0.6754146218299866, Accuracy 0.4833333333333333
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\wandb\sdk\lib\exit_hooks.py", line 52, in exc_handler
+    traceback.print_exception(exc_type, exc, tb)
+  File "C:\Users\tomda\anaconda3\Lib\traceback.py", line 124, in print_exception
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\traceback.py", line 692, in __init__
+    self.stack = StackSummary._extract_from_extended_frame_gen(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\traceback.py", line 416, in _extract_from_extended_frame_gen
+    for f, (lineno, end_lineno, colno, end_colno) in frame_gen:
+  File "C:\Users\tomda\anaconda3\Lib\traceback.py", line 353, in _walk_tb_with_full_positions
+    positions = _get_code_position(tb.tb_frame.f_code, tb.tb_lasti)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\traceback.py", line 367, in _get_code_position
+    return next(itertools.islice(positions_gen, instruction_index // 2, None))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 51, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 36, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 278, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 234, in bc
+    optimizer.step()
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\optim\optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\optim\optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\optim\adam.py", line 163, in step
+    adam(
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\optim\adam.py", line 311, in adam
+    func(params,
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\optim\adam.py", line 384, in _single_tensor_adam
+    exp_avg.lerp_(grad, 1 - beta1)
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from 'C:\\Users\\tomda\\anaconda3\\Lib\\threading.py'>
+Traceback (most recent call last):
+  File "C:\Users\tomda\anaconda3\Lib\threading.py", line 1552, in _shutdown
+    for atexit_call in reversed(_threading_atexits):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

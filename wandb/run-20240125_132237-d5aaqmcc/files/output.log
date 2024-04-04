@@ -1,0 +1,50 @@
+I moved the objects to:
+[5.5 2.1]
+[3.5 3.8]
+I moved the objects to:
+[3.1 4.1]
+[4.7 7.3]
+I moved the objects to:
+[7.2 3. ]
+[6.8 4.8]
+I moved the objects to:
+[3.9 2.7]
+[6.7 7.2]
+I moved the objects to:
+[5.7 2.5]
+[4.5 7.4]
+I moved the objects to:
+[2.5 7.2]
+[1.6 1.5]
+I moved the objects to:
+[2.3 5.2]
+[7.3 5.1]
+I moved the objects to:
+[7.4 5.1]
+[7.5 1.6]
+I moved the objects to:
+[4.  2.2]
+[6.3 7.7]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 50, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 35, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 16, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 278, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 144, in bc
+    test_trajectories = get_trajectories(env, model, num_trajectories=50)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 98, in get_trajectories
+    state, _, done, _ = env.step(action)
+                        ^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\environment\symmetry_move.py", line 226, in step
+    obs = self.get_observation()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\environment\symmetry_move.py", line 83, in get_observation
+    self._render()
+  File "C:\Users\tomda\Desktop\symmetry_learning\environment\symmetry_move.py", line 149, in _render
+    self.clock.tick(60)
+KeyboardInterrupt

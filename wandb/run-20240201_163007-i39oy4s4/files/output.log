@@ -1,0 +1,56 @@
+I moved the objects to:
+[7.20277564 6.30277564]
+[3.30277564 4.50277564]
+I moved the objects to:
+[7.20277564 7.50277564]
+[2.70277564 1.80277564]
+DONE
+-0.019468613064184775
+I moved the objects to:
+[4.50277564 4.50277564]
+[8.10277564 6.00277564]
+DONE
+-0.007964775166636809
+I moved the objects to:
+[1.80277564 3.90277564]
+[2.70277564 3.30277564]
+DONE
+-0.027875959474386036
+I moved the objects to:
+[3.30277564 3.00277564]
+[3.30277564 4.50277564]
+DONE
+-0.05088514248714571
+I moved the objects to:
+[7.20277564 7.80277564]
+[4.20277564 7.20277564]
+DONE
+-0.03407044966673321
+I moved the objects to:
+[3.00277564 4.80277564]
+[3.00277564 6.90277564]
+DONE
+-0.043362938564084796
+I moved the objects to:
+[5.40277564 3.30277564]
+[5.10277564 6.30277564]
+DONE
+-0.05044257124357521
+I moved the objects to:
+[3.90277564 1.80277564]
+[4.80277564 4.80277564]
+DONE
+-0.0858407346410226
+I moved the objects to:
+[7.20277564 4.20277564]
+[3.30277564 3.00277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 33, in main
+    manual_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 23, in manual_control
+    manualController(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\controllers\manual_controller.py", line 46, in manualController
+    env.clock.tick(60)
+KeyboardInterrupt

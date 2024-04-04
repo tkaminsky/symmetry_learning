@@ -1,0 +1,263 @@
+I moved the objects to:
+[7.30277564 5.20277564]
+[3.50277564 8.10277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[7.90277564 4.20277564]
+[7.20277564 4.40277564]
+I moved the objects to:
+[3.50277564 5.60277564]
+[6.90277564 5.50277564]
+Using cache found in C:\Users\tomda/.cache\torch\hub\pytorch_vision_v0.9.0
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+I moved the objects to:
+[5.30277564 2.20277564]
+[2.20277564 4.40277564]
+I moved the objects to:
+[6.00277564 4.00277564]
+[3.70277564 4.00277564]
+I moved the objects to:
+[7.30277564 5.40277564]
+[5.10277564 2.60277564]
+I moved the objects to:
+[4.60277564 4.70277564]
+[5.30277564 4.20277564]
+I moved the objects to:
+[2.40277564 6.20277564]
+[4.10277564 7.50277564]
+I moved the objects to:
+[1.90277564 6.20277564]
+[8.10277564 4.50277564]
+I moved the objects to:
+[7.00277564 7.60277564]
+[7.10277564 4.20277564]
+I moved the objects to:
+[4.70277564 6.90277564]
+[1.90277564 3.60277564]
+I moved the objects to:
+[5.60277564 6.00277564]
+[7.10277564 5.10277564]
+I moved the objects to:
+[6.80277564 7.70277564]
+[6.80277564 8.10277564]
+I moved the objects to:
+[7.30277564 7.50277564]
+[5.50277564 6.30277564]
+I moved the objects to:
+[5.30277564 2.90277564]
+[7.70277564 6.60277564]
+I moved the objects to:
+[5.10277564 4.90277564]
+[2.60277564 4.60277564]
+I moved the objects to:
+[7.30277564 3.50277564]
+[4.30277564 6.80277564]
+I moved the objects to:
+[5.60277564 4.00277564]
+[2.60277564 7.90277564]
+I moved the objects to:
+[4.30277564 6.90277564]
+[3.00277564 2.20277564]
+I moved the objects to:
+[4.10277564 7.40277564]
+[6.40277564 6.00277564]
+I moved the objects to:
+[2.90277564 6.00277564]
+[4.60277564 3.10277564]
+I moved the objects to:
+[5.80277564 3.70277564]
+[5.80277564 2.70277564]
+I moved the objects to:
+[6.50277564 6.00277564]
+[2.70277564 2.50277564]
+I moved the objects to:
+[4.20277564 4.70277564]
+[6.70277564 3.00277564]
+I moved the objects to:
+[6.60277564 2.10277564]
+[5.10277564 7.80277564]
+I moved the objects to:
+[5.40277564 2.40277564]
+[5.00277564 5.60277564]
+I moved the objects to:
+[5.20277564 4.60277564]
+[2.90277564 5.20277564]
+I moved the objects to:
+[4.50277564 4.10277564]
+[8.00277564 2.20277564]
+I moved the objects to:
+[7.20277564 3.60277564]
+[8.10277564 5.80277564]
+I moved the objects to:
+[8.00277564 7.80277564]
+[4.20277564 7.90277564]
+I moved the objects to:
+[6.20277564 7.30277564]
+[6.50277564 7.40277564]
+I moved the objects to:
+[2.30277564 2.10277564]
+[2.00277564 5.80277564]
+I moved the objects to:
+[2.50277564 4.70277564]
+[2.90277564 1.90277564]
+I moved the objects to:
+[2.70277564 5.30277564]
+[1.80277564 6.90277564]
+I moved the objects to:
+[2.90277564 3.80277564]
+[2.90277564 6.90277564]
+I moved the objects to:
+[6.30277564 4.90277564]
+[2.00277564 5.90277564]
+I moved the objects to:
+[6.90277564 3.70277564]
+[4.70277564 3.40277564]
+I moved the objects to:
+[2.10277564 4.50277564]
+[5.40277564 2.80277564]
+I moved the objects to:
+[2.10277564 7.30277564]
+[5.60277564 2.70277564]
+I moved the objects to:
+[2.70277564 4.40277564]
+[2.90277564 4.60277564]
+I moved the objects to:
+[6.50277564 3.30277564]
+[5.00277564 5.40277564]
+I moved the objects to:
+[5.40277564 7.60277564]
+[4.90277564 3.60277564]
+I moved the objects to:
+[7.60277564 3.40277564]
+[4.50277564 5.40277564]
+I moved the objects to:
+[4.70277564 6.40277564]
+[1.80277564 3.50277564]
+I moved the objects to:
+[5.10277564 7.70277564]
+[7.50277564 2.10277564]
+I moved the objects to:
+[5.90277564 5.90277564]
+[6.60277564 3.80277564]
+I moved the objects to:
+[5.40277564 2.40277564]
+[6.30277564 3.10277564]
+I moved the objects to:
+[3.60277564 6.20277564]
+[4.00277564 3.70277564]
+I moved the objects to:
+[4.80277564 5.90277564]
+[7.90277564 4.40277564]
+I moved the objects to:
+[3.50277564 6.60277564]
+[7.60277564 3.50277564]
+I moved the objects to:
+[5.00277564 2.70277564]
+[3.20277564 4.70277564]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[1.80277564 4.40277564]
+[4.80277564 4.60277564]
+I moved the objects to:
+[7.00277564 5.60277564]
+[6.80277564 6.30277564]
+I moved the objects to:
+[3.80277564 5.70277564]
+[7.10277564 5.10277564]
+I moved the objects to:
+[7.70277564 5.60277564]
+[3.80277564 4.30277564]
+I moved the objects to:
+[2.00277564 6.20277564]
+[5.00277564 3.70277564]
+I moved the objects to:
+[4.00277564 5.80277564]
+[7.50277564 3.10277564]
+I moved the objects to:
+[2.20277564 5.90277564]
+[7.60277564 2.00277564]
+I moved the objects to:
+[4.30277564 6.80277564]
+[5.40277564 7.40277564]
+I moved the objects to:
+[7.40277564 8.10277564]
+[8.10277564 2.20277564]
+I moved the objects to:
+[7.10277564 5.90277564]
+[6.20277564 8.10277564]
+I moved the objects to:
+[5.90277564 5.50277564]
+[7.00277564 8.10277564]
+I moved the objects to:
+[7.80277564 4.30277564]
+[2.50277564 5.60277564]
+I moved the objects to:
+[6.20277564 4.70277564]
+[4.80277564 4.20277564]
+I moved the objects to:
+[6.80277564 6.40277564]
+[3.80277564 4.60277564]
+I moved the objects to:
+[6.00277564 3.60277564]
+[4.70277564 5.70277564]
+I moved the objects to:
+[4.90277564 6.90277564]
+[7.00277564 7.30277564]
+I moved the objects to:
+[4.80277564 4.80277564]
+[4.00277564 2.60277564]
+I moved the objects to:
+[3.20277564 4.50277564]
+[6.50277564 7.60277564]
+I moved the objects to:
+[7.40277564 5.10277564]
+[4.80277564 4.80277564]
+I moved the objects to:
+[3.10277564 2.30277564]
+[2.00277564 7.40277564]
+Gathered BC Test data.
+Dataset size: 3750 Test dataset size: 1749
+Beginning BC Training . . .
+States shape: torch.Size([238, 3, 160, 160])
+Epoch 0, Loss 0.05306922644376755, Accuracy 0.6841911764705884
+Test Loss 0.06558216363191605, Test Accuracy 0.21820887445887446
+Epoch 1, Loss 1.8514118194580078, Accuracy 0.22771066760037348
+Epoch 2, Loss 0.22294828295707703, Accuracy 0.24468370681605975
+Epoch 3, Loss 0.22260360419750214, Accuracy 0.2573646125116713
+Epoch 4, Loss 0.22249607741832733, Accuracy 0.25694152661064423
+Epoch 5, Loss 0.22309181094169617, Accuracy 0.25702614379084965
+Test Loss 0.0644790530204773, Test Accuracy 0.16764069264069265
+Epoch 6, Loss 0.22234584391117096, Accuracy 0.19990662931839398
+Epoch 7, Loss 0.22429847717285156, Accuracy 0.19880660597572364
+Epoch 8, Loss 0.22196990251541138, Accuracy 0.1998220121381886
+Epoch 9, Loss 0.22057965397834778, Accuracy 0.20075280112044816
+Epoch 10, Loss 0.22288499772548676, Accuracy 0.19880660597572364
+Test Loss 0.0638265535235405, Test Accuracy 0.36344696969696966
+Epoch 11, Loss 0.22404931485652924, Accuracy 0.1989758403361345
+Epoch 12, Loss 0.2217738926410675, Accuracy 0.19982201213818865
+Epoch 13, Loss 0.22073741257190704, Accuracy 0.19990662931839406
+Epoch 14, Loss 0.22241663932800293, Accuracy 0.19982201213818862
+Epoch 15, Loss 0.22126081585884094, Accuracy 0.19999124649859948
+Test Loss 0.05895369127392769, Test Accuracy 0.365232683982684
+Epoch 16, Loss 0.22298572957515717, Accuracy 0.19939892623716152
+Epoch 17, Loss 0.22202517092227936, Accuracy 0.1999066293183941
+Epoch 18, Loss 0.22197887301445007, Accuracy 0.20007586367880487
+Epoch 19, Loss 0.2238876074552536, Accuracy 0.1993143090569561
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 329, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 274, in bc
+    loss += loss.item()
+            ^^^^^^^^^^^
+KeyboardInterrupt
+Epoch 20, Loss 0.22215093672275543, Accuracy 0.19956816059757237

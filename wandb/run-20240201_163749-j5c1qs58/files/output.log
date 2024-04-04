@@ -1,0 +1,135 @@
+I moved the objects to:
+[6.60277564 3.30277564]
+[5.10277564 2.70277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[2.70277564 7.80277564]
+[4.50277564 8.10277564]
+I moved the objects to:
+[5.40277564 7.50277564]
+[6.60277564 5.70277564]
+I moved the objects to:
+[7.20277564 2.70277564]
+[6.60277564 1.80277564]
+I moved the objects to:
+[5.40277564 2.10277564]
+[4.50277564 2.70277564]
+I moved the objects to:
+[6.30277564 4.80277564]
+[6.90277564 8.10277564]
+I moved the objects to:
+[6.30277564 8.10277564]
+[2.70277564 6.90277564]
+I moved the objects to:
+[6.00277564 3.30277564]
+[6.30277564 6.60277564]
+I moved the objects to:
+[5.40277564 7.50277564]
+[4.20277564 3.30277564]
+I moved the objects to:
+[7.20277564 6.00277564]
+[4.80277564 3.90277564]
+I moved the objects to:
+[6.30277564 4.20277564]
+[6.00277564 7.50277564]
+I moved the objects to:
+[5.70277564 3.30277564]
+[6.90277564 2.40277564]
+I moved the objects to:
+[4.80277564 3.60277564]
+[8.10277564 6.60277564]
+I moved the objects to:
+[5.70277564 7.50277564]
+[3.00277564 3.00277564]
+I moved the objects to:
+[3.60277564 6.90277564]
+[4.80277564 6.60277564]
+I moved the objects to:
+[5.70277564 6.00277564]
+[5.10277564 7.20277564]
+I moved the objects to:
+[6.90277564 8.10277564]
+[4.80277564 4.80277564]
+I moved the objects to:
+[1.80277564 2.70277564]
+[5.40277564 6.60277564]
+I moved the objects to:
+[4.80277564 4.50277564]
+[5.40277564 4.50277564]
+I moved the objects to:
+[3.00277564 4.20277564]
+[2.40277564 1.80277564]
+I moved the objects to:
+[6.00277564 2.70277564]
+[1.80277564 3.30277564]
+I moved the objects to:
+[3.90277564 2.10277564]
+[6.60277564 7.80277564]
+I moved the objects to:
+[7.50277564 7.20277564]
+[4.50277564 7.20277564]
+I moved the objects to:
+[2.10277564 5.70277564]
+[4.50277564 3.30277564]
+I moved the objects to:
+[6.30277564 1.80277564]
+[3.00277564 3.30277564]
+I moved the objects to:
+[7.50277564 6.00277564]
+[4.50277564 5.70277564]
+I moved the objects to:
+[4.80277564 7.80277564]
+[4.20277564 7.20277564]
+I moved the objects to:
+[2.70277564 2.40277564]
+[3.30277564 4.80277564]
+I moved the objects to:
+[3.60277564 7.50277564]
+[3.00277564 6.60277564]
+I moved the objects to:
+[6.30277564 7.80277564]
+[4.20277564 2.70277564]
+I moved the objects to:
+[4.80277564 4.50277564]
+[6.00277564 2.40277564]
+I moved the objects to:
+[6.00277564 6.00277564]
+[4.50277564 4.20277564]
+I moved the objects to:
+[4.20277564 6.30277564]
+[2.70277564 5.70277564]
+I moved the objects to:
+[7.20277564 5.40277564]
+[7.50277564 5.70277564]
+I moved the objects to:
+[7.50277564 6.60277564]
+[2.40277564 7.50277564]
+I moved the objects to:
+[8.10277564 5.10277564]
+[4.80277564 2.70277564]
+I moved the objects to:
+[4.80277564 6.30277564]
+[4.50277564 6.60277564]
+I moved the objects to:
+[8.10277564 7.80277564]
+[7.20277564 7.80277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 385, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 176, in bc
+    trajectories = get_trajectories(env, model, num_trajectories=budget)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 113, in get_trajectories
+    state, _ = env.reset()
+               ^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\environment\symmetry_move.py", line 183, in reset
+    self.o1.rotate(-o1_current_theta)
+  File "C:\Users\tomda\Desktop\symmetry_learning\objects\nested_shape.py", line 78, in rotate
+    shape.rotate(theta, center)
+KeyboardInterrupt

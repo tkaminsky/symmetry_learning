@@ -1,0 +1,37 @@
+I moved the objects to:
+[2.60277564 2.90277564]
+[6.40277564 3.50277564]
+I moved the objects to:
+[6.50277564 5.70277564]
+[4.60277564 5.80277564]
+I moved the objects to:
+[7.20277564 2.70277564]
+[1.90277564 7.40277564]
+I moved the objects to:
+[6.70277564 7.20277564]
+[2.10277564 6.60277564]
+I moved the objects to:
+[3.50277564 4.50277564]
+[7.20277564 2.80277564]
+I moved the objects to:
+[7.50277564 2.40277564]
+[6.40277564 3.70277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 51, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 36, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 291, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 139, in bc
+    trajectories = get_trajectories(env, model, num_trajectories=budget)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 95, in get_trajectories
+    action = oracle_rev(env)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\controllers\oracle_controller.py", line 74, in oracle_rev
+    return best_action
+           ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'best_action' where it is not associated with a value

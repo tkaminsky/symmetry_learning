@@ -1,0 +1,89 @@
+I moved the objects to:
+[2.10277564 6.00277564]
+[6.60277564 2.40277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[6.60277564 7.20277564]
+[5.40277564 5.70277564]
+I moved the objects to:
+[2.40277564 6.60277564]
+[6.60277564 2.70277564]
+I moved the objects to:
+[7.80277564 8.10277564]
+[6.30277564 3.60277564]
+I moved the objects to:
+[5.40277564 7.20277564]
+[4.20277564 7.80277564]
+I moved the objects to:
+[6.60277564 6.90277564]
+[4.50277564 3.90277564]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[6.00277564 1.80277564]
+[7.80277564 2.10277564]
+I moved the objects to:
+[7.80277564 3.60277564]
+[6.00277564 4.80277564]
+I moved the objects to:
+[2.40277564 3.00277564]
+[2.10277564 7.20277564]
+I moved the objects to:
+[8.10277564 2.10277564]
+[1.80277564 4.80277564]
+I moved the objects to:
+[3.90277564 6.30277564]
+[5.40277564 1.80277564]
+I moved the objects to:
+[6.00277564 6.00277564]
+[2.70277564 3.00277564]
+I moved the objects to:
+[5.70277564 4.20277564]
+[3.30277564 6.00277564]
+I moved the objects to:
+[5.70277564 6.60277564]
+[4.50277564 2.10277564]
+I moved the objects to:
+[7.50277564 4.50277564]
+[2.10277564 1.80277564]
+I moved the objects to:
+[6.30277564 2.10277564]
+[2.40277564 7.20277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 363, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 236, in bc
+    outputs = model(states)
+              ^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 90, in forward
+    x = self.pool(F.relu(self.conv1(x)))
+                         ^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Input type (double) and bias type (float) should be the same
+Gathered BC Test data.
+Dataset size: 125 Test dataset size: 310
+Beginning BC Training . . .
+torch.Size([125, 3, 160, 160])

@@ -1,0 +1,260 @@
+2024-01-31 22:56:30,255 INFO    StreamThr :1612 [internal.py:wandb_internal():86] W&B internal server running at pid: 1612, started at: 2024-01-31 22:56:30.254537
+2024-01-31 22:56:30,256 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status
+2024-01-31 22:56:30,257 INFO    WriterThread:1612 [datastore.py:open_for_write():87] open: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\run-hz7yq2ow.wandb
+2024-01-31 22:56:30,258 DEBUG   SenderThread:1612 [sender.py:send():382] send: header
+2024-01-31 22:56:30,288 DEBUG   SenderThread:1612 [sender.py:send():382] send: run
+2024-01-31 22:56:30,753 INFO    SenderThread:1612 [dir_watcher.py:__init__():211] watching files in: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files
+2024-01-31 22:56:30,753 INFO    SenderThread:1612 [sender.py:_start_run_threads():1136] run started: hz7yq2ow with start time 1706759790.255803
+2024-01-31 22:56:30,761 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: check_version
+2024-01-31 22:56:30,761 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: check_version
+2024-01-31 22:56:35,776 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:56:35,781 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: run_start
+2024-01-31 22:56:35,801 DEBUG   HandlerThread:1612 [system_info.py:__init__():27] System info init
+2024-01-31 22:56:35,802 DEBUG   HandlerThread:1612 [system_info.py:__init__():42] System info init done
+2024-01-31 22:56:35,802 INFO    HandlerThread:1612 [system_monitor.py:start():194] Starting system monitor
+2024-01-31 22:56:35,802 INFO    SystemMonitor:1612 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-31 22:56:35,802 INFO    HandlerThread:1612 [system_monitor.py:probe():214] Collecting system info
+2024-01-31 22:56:35,808 INFO    SystemMonitor:1612 [interfaces.py:start():190] Started cpu monitoring
+2024-01-31 22:56:35,809 INFO    SystemMonitor:1612 [interfaces.py:start():190] Started disk monitoring
+2024-01-31 22:56:35,810 INFO    SystemMonitor:1612 [interfaces.py:start():190] Started gpu monitoring
+2024-01-31 22:56:35,810 INFO    SystemMonitor:1612 [interfaces.py:start():190] Started memory monitoring
+2024-01-31 22:56:35,819 INFO    SystemMonitor:1612 [interfaces.py:start():190] Started network monitoring
+2024-01-31 22:56:35,822 DEBUG   HandlerThread:1612 [system_info.py:probe():151] Probing system
+2024-01-31 22:56:35,823 DEBUG   HandlerThread:1612 [system_info.py:_probe_git():136] Probing git
+2024-01-31 22:56:35,880 DEBUG   HandlerThread:1612 [system_info.py:_probe_git():144] Probing git done
+2024-01-31 22:56:35,881 DEBUG   HandlerThread:1612 [system_info.py:probe():199] Probing system done
+2024-01-31 22:56:35,881 DEBUG   HandlerThread:1612 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-02-01T03:56:35.822545', 'startedAt': '2024-02-01T03:56:30.240324', 'docker': None, 'cuda': None, 'args': ('-c', 'bc'), 'state': 'running', 'program': 'C:\\Users\\tomda\\Desktop\\symmetry_learning\\symmetry_shift_runner.py', 'codePathLocal': 'symmetry_shift_runner.py', 'codePath': 'symmetry_shift_runner.py', 'git': {'remote': 'git@github.com:tkaminsky/symmetry_learning.git', 'commit': 'ffba65af91d1ba4999bc200beca3888cc6613e10'}, 'email': 'tomdavkam@gmail.com', 'root': 'C:/Users/tomda/Desktop/symmetry_learning', 'host': 'tomdavkam', 'username': 'tomda', 'executable': 'C:\\Users\\tomda\\anaconda3\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3195.0, 'min': 0.0, 'max': 4001.0}, 'cpu_freq_per_core': [{'current': 3195.0, 'min': 0.0, 'max': 4001.0}], 'disk': {'/': {'total': 794.588981628418, 'used': 697.011302947998}}, 'gpu': 'NVIDIA GeForce RTX 4070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 31.21628189086914}}
+2024-01-31 22:56:35,881 INFO    HandlerThread:1612 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-31 22:56:35,881 INFO    HandlerThread:1612 [system_monitor.py:probe():227] Publishing system info
+2024-01-31 22:56:35,881 DEBUG   HandlerThread:1612 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-31 22:56:36,815 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\conda-environment.yaml
+2024-01-31 22:56:43,008 DEBUG   HandlerThread:1612 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-31 22:56:43,018 INFO    HandlerThread:1612 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-31 22:56:43,020 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:56:43,020 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-31 22:56:43,022 DEBUG   SenderThread:1612 [sender.py:send():382] send: files
+2024-01-31 22:56:43,022 INFO    SenderThread:1612 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-31 22:56:43,026 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-31 22:56:43,026 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: python_packages
+2024-01-31 22:56:43,026 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 22:56:43,027 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: stop_status
+2024-01-31 22:56:43,028 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 22:56:43,198 DEBUG   SenderThread:1612 [sender.py:send():382] send: telemetry
+2024-01-31 22:56:43,884 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\conda-environment.yaml
+2024-01-31 22:56:43,884 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\wandb-metadata.json
+2024-01-31 22:56:43,884 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\requirements.txt
+2024-01-31 22:56:43,884 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\output.log
+2024-01-31 22:56:45,913 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\output.log
+2024-01-31 22:56:46,153 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:56:47,930 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\output.log
+2024-01-31 22:56:48,252 DEBUG   SenderThread:1612 [sender.py:send():382] send: exit
+2024-01-31 22:56:48,252 INFO    SenderThread:1612 [sender.py:send_exit():589] handling exit code: 1
+2024-01-31 22:56:48,253 INFO    SenderThread:1612 [sender.py:send_exit():591] handling runtime: 12
+2024-01-31 22:56:48,253 INFO    SenderThread:1612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-31 22:56:48,253 INFO    SenderThread:1612 [sender.py:send_exit():597] send defer
+2024-01-31 22:56:48,253 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,253 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-31 22:56:48,254 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,254 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-31 22:56:48,254 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 1
+2024-01-31 22:56:48,254 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,254 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-31 22:56:48,254 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,254 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-31 22:56:48,254 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 2
+2024-01-31 22:56:48,254 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,254 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-31 22:56:48,254 INFO    HandlerThread:1612 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-31 22:56:48,254 DEBUG   SystemMonitor:1612 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-31 22:56:48,254 INFO    HandlerThread:1612 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-31 22:56:48,254 DEBUG   SystemMonitor:1612 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-31 22:56:48,265 INFO    HandlerThread:1612 [interfaces.py:finish():202] Joined disk monitor
+2024-01-31 22:56:48,266 DEBUG   SystemMonitor:1612 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-31 22:56:48,330 INFO    HandlerThread:1612 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-31 22:56:48,330 INFO    HandlerThread:1612 [interfaces.py:finish():202] Joined memory monitor
+2024-01-31 22:56:48,330 INFO    HandlerThread:1612 [interfaces.py:finish():202] Joined network monitor
+2024-01-31 22:56:48,330 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,330 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-31 22:56:48,330 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 3
+2024-01-31 22:56:48,330 DEBUG   SenderThread:1612 [sender.py:send():382] send: stats
+2024-01-31 22:56:48,331 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,331 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-31 22:56:48,331 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,331 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-31 22:56:48,331 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 4
+2024-01-31 22:56:48,331 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,331 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-31 22:56:48,331 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,331 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-31 22:56:48,331 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 5
+2024-01-31 22:56:48,331 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,331 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-31 22:56:48,331 DEBUG   SenderThread:1612 [sender.py:send():382] send: summary
+2024-01-31 22:56:48,332 INFO    SenderThread:1612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-31 22:56:48,332 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,332 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-31 22:56:48,332 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 6
+2024-01-31 22:56:48,332 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,332 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-31 22:56:48,333 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,333 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-31 22:56:48,334 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:56:48,426 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 7
+2024-01-31 22:56:48,426 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:48,426 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-31 22:56:48,426 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:48,426 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-31 22:56:48,935 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\config.yaml
+2024-01-31 22:56:48,936 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\wandb-summary.json
+2024-01-31 22:56:49,263 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:49,594 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 8
+2024-01-31 22:56:49,594 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:49,594 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:49,594 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-31 22:56:49,594 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:49,594 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-31 22:56:49,594 INFO    SenderThread:1612 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-31 22:56:49,596 INFO    SenderThread:1612 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-31 22:56:49,640 INFO    SenderThread:1612 [job_builder.py:build():402] adding wandb-job metadata file
+2024-01-31 22:56:49,646 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 9
+2024-01-31 22:56:49,646 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:49,646 DEBUG   SenderThread:1612 [sender.py:send():382] send: artifact
+2024-01-31 22:56:49,646 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-31 22:56:49,946 INFO    Thread-16 :1612 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\output.log
+2024-01-31 22:56:50,073 INFO    SenderThread:1612 [sender.py:send_artifact():1494] sent artifact job-git_github.com_tkaminsky_symmetry_learning.git_symmetry_shift_runner.py - {'id': 'QXJ0aWZhY3Q6NzEwMDU0MDI3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMzc4NTAzNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzEwMDU0MDI3', 'versionIndex': 4}}}
+2024-01-31 22:56:50,073 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:50,073 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-31 22:56:50,073 INFO    SenderThread:1612 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-31 22:56:50,275 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:50,963 INFO    SenderThread:1612 [dir_watcher.py:finish():388] scan: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files
+2024-01-31 22:56:50,963 INFO    SenderThread:1612 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\conda-environment.yaml conda-environment.yaml
+2024-01-31 22:56:50,963 INFO    SenderThread:1612 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\config.yaml config.yaml
+2024-01-31 22:56:50,964 INFO    SenderThread:1612 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\output.log output.log
+2024-01-31 22:56:50,967 INFO    SenderThread:1612 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\requirements.txt requirements.txt
+2024-01-31 22:56:50,969 INFO    SenderThread:1612 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\wandb-metadata.json wandb-metadata.json
+2024-01-31 22:56:50,969 INFO    SenderThread:1612 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_225630-hz7yq2ow\files\wandb-summary.json wandb-summary.json
+2024-01-31 22:56:50,970 INFO    SenderThread:1612 [sender.py:transition_state():617] send defer: 10
+2024-01-31 22:56:50,970 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:50,970 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 22:56:50,970 INFO    HandlerThread:1612 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-31 22:56:50,972 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: defer
+2024-01-31 22:56:50,972 INFO    SenderThread:1612 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-31 22:56:50,972 INFO    SenderThread:1612 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-31 22:56:51,289 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:51,289 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:52,298 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:52,298 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:53,305 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:53,306 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:54,319 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:54,319 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:55,333 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:55,334 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:56,335 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:56,335 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:56:56,336 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:57,348 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:57,349 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:58,361 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:58,362 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:56:59,363 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:56:59,363 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:00,377 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:00,377 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:01,390 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:01,390 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:01,391 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:02,394 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:02,395 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:03,400 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:03,400 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:04,412 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:04,413 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:05,417 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:05,418 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:06,422 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:06,423 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:06,423 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:07,428 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:07,428 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:08,435 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:08,435 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:09,442 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:09,442 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:10,457 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:10,457 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:11,467 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:11,468 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:11,468 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:12,483 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:12,483 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:13,483 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:13,484 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:14,498 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:14,498 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:15,505 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:15,506 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:16,516 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:16,516 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:16,518 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:17,519 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:17,519 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:18,524 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:18,525 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:19,526 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:19,527 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:20,528 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:20,529 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:21,532 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:21,533 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:21,533 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:22,534 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:22,534 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:23,537 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:23,537 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:24,544 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:24,545 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:25,547 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:25,547 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:26,555 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:26,555 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:26,556 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:27,563 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:27,564 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:28,564 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:28,564 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:29,574 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:29,575 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:30,587 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:30,588 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:31,591 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:31,591 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:31,592 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:32,595 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:32,596 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:33,595 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:33,595 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:34,607 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:34,607 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:35,621 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:35,621 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:36,635 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:36,635 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:36,636 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:37,643 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:37,643 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:38,656 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:38,656 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:39,669 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:39,670 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:40,683 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:40,684 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:41,697 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 22:57:41,697 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:41,698 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:42,701 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:42,701 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:43,703 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:43,703 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 22:57:44,715 DEBUG   HandlerThread:1612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 22:57:44,716 DEBUG   SenderThread:1612 [sender.py:send_request():409] send_request: poll_exit

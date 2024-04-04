@@ -1,0 +1,77 @@
+I moved the objects to:
+[6.30277564 7.80277564]
+[7.70277564 6.90277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[5.30277564 5.30277564]
+[4.00277564 7.90277564]
+Using cache found in C:\Users\tomda/.cache\torch\hub\pytorch_vision_v0.9.0
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+I moved the objects to:
+[2.80277564 5.60277564]
+[2.00277564 2.60277564]
+[  0.   6.   8.  36.  37.  38.  39.  40.  41.  42.  43.  45.  48.  49.
+  53.  54.  59.  62.  65.  70.  72.  77.  80.  81.  82.  84.  89.  94.
+  99. 107. 110. 112. 115. 116. 117. 118. 120. 121. 122. 123. 124. 126.
+ 128. 129. 130. 131. 132. 134. 136. 137. 138. 139. 140. 141. 142. 143.
+ 145. 146. 147. 148. 150. 152. 153. 155. 157. 159. 160. 161. 162. 163.
+ 165. 167. 168. 169. 170. 171. 174. 176. 181. 182. 183. 184. 185. 186.
+ 187. 188. 189. 191. 192. 196. 197. 199. 200. 201. 202. 203. 205. 206.
+ 207. 208. 209. 210. 211. 212. 213. 214. 215. 216. 217. 218. 219. 220.
+ 221. 223. 224. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236.
+ 237. 238. 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250.
+ 251. 252. 253. 254. 255.]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[6.90277564 4.00277564]
+[2.70277564 3.50277564]
+I moved the objects to:
+[2.90277564 2.20277564]
+[2.80277564 2.50277564]
+Gathered BC Test data.
+Dataset size: 137 Test dataset size: 145
+Beginning BC Training . . .
+torch.Size([3, 160, 160])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 347, in bcRunner
+    # model = CNN()
+    ^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 207, in bc
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 51, in __getitem__
+    plt.title("In image, before transform")
+    ^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\pyplot.py", line 446, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\backend_bases.py", line 3620, in show
+    cls.mainloop()
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\backends\backend_qt.py", line 602, in start_main_loop
+    with _maybe_allow_interrupt(qapp):
+  File "C:\Users\tomda\anaconda3\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\backends\qt_compat.py", line 245, in _maybe_allow_interrupt
+    old_sigint_handler(*handler_args)
+KeyboardInterrupt

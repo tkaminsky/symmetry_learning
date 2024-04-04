@@ -1,0 +1,1240 @@
+I moved the objects to:
+[4.7 8. ]
+[1.6 4.6]
+I moved the objects to:
+[1.7 4.2]
+[3.7 2. ]
+I moved the objects to:
+[6.5 3.9]
+[5.9 1.8]
+I moved the objects to:
+[3.3 6.2]
+[3.9 6.1]
+I moved the objects to:
+[1.6 7.2]
+[6.3 4.8]
+I moved the objects to:
+[1.8 2.6]
+[2.1 7.1]
+0
+1
+2
+3
+4
+Shapes:
+(318, 3, 640, 640)
+(318,)
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 0, Loss 6.83211612701416
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 1, Loss 149.34425354003906
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 2, Loss 57.188941955566406
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 3, Loss 37.16914367675781
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 4, Loss 30.568603515625
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 5, Loss 6.602102756500244
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 6, Loss 9.531573295593262
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 7, Loss 9.076179504394531
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\transforms\functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\transforms\functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 0, Iteration 8, Loss 22.40168571472168
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 0, Iteration 9, Loss 18.28840446472168
+Epoch 0, Loss 1.8288404941558838, Accuracy 0.5195833333333333
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 0, Loss 7.458411693572998
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 1, Loss 3.7012600898742676
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 2, Loss 6.173797607421875
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 3, Loss 5.514217376708984
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 4, Loss 11.109700202941895
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 5, Loss 4.525662422180176
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 6, Loss 2.567098379135132
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 7, Loss 2.5719897747039795
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 1, Iteration 8, Loss 3.222693920135498
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 1, Iteration 9, Loss 3.894569158554077
+Epoch 1, Loss 0.38945692777633667, Accuracy 0.73
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 0, Loss 2.070998430252075
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 1, Loss 4.114675045013428
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 2, Loss 3.4658422470092773
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 3, Loss 0.9491540789604187
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 4, Loss 1.3410215377807617
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 5, Loss 1.8514597415924072
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 6, Loss 3.202554941177368
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 7, Loss 2.4342544078826904
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 2, Iteration 8, Loss 0.4562816023826599
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 2, Iteration 9, Loss 1.0880706310272217
+Epoch 2, Loss 0.10880706459283829, Accuracy 0.7960416666666668
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 0, Loss 0.6936216950416565
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 1, Loss 0.787466824054718
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 2, Loss 0.5484075546264648
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 3, Loss 0.4552749991416931
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 4, Loss 0.46358227729797363
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 5, Loss 0.9769006371498108
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 6, Loss 0.739737331867218
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 7, Loss 0.6158603429794312
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 3, Iteration 8, Loss 2.262301206588745
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 3, Iteration 9, Loss 0.6387123465538025
+Epoch 3, Loss 0.06387123465538025, Accuracy 0.8520833333333334
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 0, Loss 0.6500182151794434
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 1, Loss 0.7241358757019043
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 2, Loss 0.46842333674430847
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 3, Loss 0.44207143783569336
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 4, Loss 0.24831993877887726
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 5, Loss 0.3788904547691345
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 6, Loss 0.4188203513622284
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 7, Loss 0.922799289226532
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 4, Iteration 8, Loss 0.3045399487018585
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 4, Iteration 9, Loss 0.3806179463863373
+Epoch 4, Loss 0.03806179389357567, Accuracy 0.9089583333333333
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 0, Loss 0.2226371169090271
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 1, Loss 0.24189941585063934
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 2, Loss 0.2833200693130493
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 3, Loss 0.7952322959899902
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 4, Loss 0.32586562633514404
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 5, Loss 0.24017584323883057
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 6, Loss 0.2153235673904419
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 7, Loss 0.432284951210022
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 5, Iteration 8, Loss 0.5405313968658447
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 5, Iteration 9, Loss 0.6983143091201782
+Epoch 5, Loss 0.06983143091201782, Accuracy 0.9529166666666666
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 0, Loss 0.6202403903007507
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 1, Loss 0.16095228493213654
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 2, Loss 0.22077308595180511
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 3, Loss 0.32848846912384033
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 4, Loss 0.3146614134311676
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 5, Loss 0.42192932963371277
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 6, Loss 0.3901768624782562
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 7, Loss 0.1757715493440628
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 6, Iteration 8, Loss 0.18620853126049042
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 6, Iteration 9, Loss 0.30044421553611755
+Epoch 6, Loss 0.030044421553611755, Accuracy 0.9622916666666667
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 0, Loss 0.1460878700017929
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 1, Loss 0.21685613691806793
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 2, Loss 0.4958931803703308
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 3, Loss 0.28288930654525757
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 4, Loss 0.14886946976184845
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 5, Loss 0.2693767249584198
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 6, Loss 0.11655543744564056
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 7, Loss 0.16106852889060974
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 7, Iteration 8, Loss 0.22700797021389008
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 7, Iteration 9, Loss 0.17838062345981598
+Epoch 7, Loss 0.017838062718510628, Accuracy 0.9716666666666667
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 0, Loss 0.12938770651817322
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 1, Loss 0.5090945363044739
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 2, Loss 0.10524100065231323
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 3, Loss 0.16636906564235687
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 4, Loss 0.21008867025375366
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 5, Loss 0.16493788361549377
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 6, Loss 0.22889983654022217
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 7, Loss 0.10721976310014725
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 8, Iteration 8, Loss 0.1533578336238861
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 8, Iteration 9, Loss 0.22072644531726837
+Epoch 8, Loss 0.022072644904255867, Accuracy 0.9779166666666667
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 0, Loss 0.134059876203537
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 1, Loss 0.12774677574634552
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 2, Loss 0.12700453400611877
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 3, Loss 0.12071850895881653
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 4, Loss 0.10112901031970978
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 5, Loss 0.08394858986139297
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 6, Loss 0.23231297731399536
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 7, Loss 0.11226850748062134
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 9, Iteration 8, Loss 0.0881253108382225
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 9, Iteration 9, Loss 0.07122250646352768
+Epoch 9, Loss 0.007122250739485025, Accuracy 0.996875
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 0, Loss 0.16627082228660583
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 1, Loss 0.07930205762386322
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 2, Loss 0.1248035579919815
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 3, Loss 0.11133816093206406
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 4, Loss 0.19091707468032837
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 5, Loss 0.07029467076063156
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 6, Loss 0.08887017518281937
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 7, Loss 0.08171959221363068
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 10, Iteration 8, Loss 0.061219386756420135
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 10, Iteration 9, Loss 0.08498506247997284
+Epoch 10, Loss 0.008498506620526314, Accuracy 0.99375
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 0, Loss 0.05119481682777405
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 1, Loss 0.04973754286766052
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 2, Loss 0.11886191368103027
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 3, Loss 0.06617419421672821
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 4, Loss 0.11400395631790161
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 5, Loss 0.22121717035770416
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 6, Loss 0.10397525131702423
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 7, Loss 0.020889606326818466
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 11, Iteration 8, Loss 0.4582628011703491
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 11, Iteration 9, Loss 0.12247171998023987
+Epoch 11, Loss 0.012247172184288502, Accuracy 0.990625
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 0, Loss 0.07844182103872299
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 1, Loss 0.028115924447774887
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 2, Loss 0.1242135688662529
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 3, Loss 0.03723525628447533
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 4, Loss 0.11130303889513016
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 5, Loss 0.05474291741847992
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 6, Loss 0.08817973732948303
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 7, Loss 0.08840520679950714
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 12, Iteration 8, Loss 0.043556779623031616
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 12, Iteration 9, Loss 0.0443141870200634
+Epoch 12, Loss 0.0044314186088740826, Accuracy 0.996875
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 0, Loss 0.1398533284664154
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 1, Loss 0.041816435754299164
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 2, Loss 0.026056595146656036
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 3, Loss 0.03278224915266037
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 4, Loss 0.030353983864188194
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 5, Loss 0.0450638011097908
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 6, Loss 0.051056984812021255
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 7, Loss 0.045522648841142654
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 13, Iteration 8, Loss 0.47286805510520935
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 13, Iteration 9, Loss 0.02417769655585289
+Epoch 13, Loss 0.0024177697487175465, Accuracy 0.990625
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 0, Loss 0.04888855665922165
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 1, Loss 0.03562220185995102
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 2, Loss 0.040201298892498016
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 3, Loss 0.027733834460377693
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 4, Loss 0.026834094896912575
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 5, Loss 0.05995270609855652
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 6, Loss 0.07132425904273987
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 7, Loss 0.02265498787164688
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 14, Iteration 8, Loss 0.16448068618774414
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 14, Iteration 9, Loss 0.04345669597387314
+Epoch 14, Loss 0.004345669411122799, Accuracy 0.996875
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 0, Loss 0.04608040675520897
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 1, Loss 0.02519824355840683
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 2, Loss 0.007057549897581339
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 3, Loss 0.05727536603808403
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 4, Loss 0.021284516900777817
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 5, Loss 0.04090562462806702
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 6, Loss 0.02370903454720974
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 7, Loss 0.03124948963522911
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 15, Iteration 8, Loss 0.244448721408844
+State shape:
+torch.Size([30, 3, 160, 160])
+Output shape:
+torch.Size([30, 6])
+Actions shape:
+torch.Size([30])
+Epoch 15, Iteration 9, Loss 0.02358354814350605
+Epoch 15, Loss 0.0023583548609167337, Accuracy 0.996875
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 16, Iteration 0, Loss 0.02159961313009262
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 16, Iteration 1, Loss 0.021734127774834633
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 16, Iteration 2, Loss 0.02947593480348587
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 16, Iteration 3, Loss 0.05831868574023247
+State shape:
+torch.Size([32, 3, 160, 160])
+Output shape:
+torch.Size([32, 6])
+Actions shape:
+torch.Size([32])
+Epoch 16, Iteration 4, Loss 0.026508774608373642
+State shape:
+torch.Size([32, 3, 160, 160])
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 50, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 35, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 16, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 229, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 164, in bc
+    outputs = model(states)
+              ^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 74, in forward
+    x = self.pool(F.relu(self.conv1(x)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\modules\pooling.py", line 166, in forward
+    return F.max_pool2d(input, self.kernel_size, self.stride,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\_jit_internal.py", line 488, in fn
+    return if_false(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\nn\functional.py", line 791, in _max_pool2d
+    return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

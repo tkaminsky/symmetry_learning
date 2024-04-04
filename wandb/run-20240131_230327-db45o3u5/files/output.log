@@ -1,0 +1,57 @@
+I moved the objects to:
+[4.70277564 6.60277564]
+[8.10277564 3.00277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[4.00277564 7.40277564]
+[3.00277564 7.30277564]
+I moved the objects to:
+[1.90277564 4.20277564]
+[4.40277564 6.80277564]
+Using cache found in C:\Users\tomda/.cache\torch\hub\pytorch_vision_v0.9.0
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+[  0.   6.   8.  28.  29.  30.  31.  32.  33.  34.  35.  36.  37.  38.
+  39.  40.  41.  42.  44.  45.  46.  47.  48.  49.  50.  51.  52.  53.
+  55.  60.  61.  62.  63.  64.  65.  70.  72.  75.  76.  77.  78.  79.
+  80.  81.  82.  83.  84.  85.  86.  87.  88.  89.  90.  91.  92.  93.
+  94.  95.  96.  97.  98.  99. 103. 104. 105. 107. 109. 112. 115. 118.
+ 120. 121. 123. 124. 125. 126. 128. 130. 131. 132. 133. 134. 137. 138.
+ 141. 142. 143. 145. 147. 149. 152. 153. 154. 158. 159. 163. 164. 165.
+ 166. 167. 169. 170. 171. 173. 174. 177. 179. 181. 183. 184. 186. 188.
+ 190. 193. 195. 197. 199. 200. 201. 203. 204. 205. 206. 207. 208. 210.
+ 212. 213. 215. 216. 217. 218. 219. 220. 221. 222. 223. 224. 225. 226.
+ 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237. 238. 239. 240.
+ 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251. 252. 253. 254.
+ 255.]
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[2.80277564 8.00277564]
+[6.90277564 3.70277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 347, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 177, in bc
+    test_trajectories = get_trajectories(env, model, num_trajectories=eval_budget)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 110, in get_trajectories
+    state, _, done, _ = env.step(action)
+                        ^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\environment\symmetry_move.py", line 241, in step
+    obs = self.get_observation()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\environment\symmetry_move.py", line 83, in get_observation
+    self._render()
+  File "C:\Users\tomda\Desktop\symmetry_learning\environment\symmetry_move.py", line 147, in _render
+    self.clock.tick(60)
+KeyboardInterrupt

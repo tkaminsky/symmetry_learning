@@ -2,7 +2,8 @@ from blueprints import *
 from objects.nested_shape import NestedShape
 import matplotlib.pyplot as plt
 
-blueprint = generate_nested_regular_polygon_blueprint(3, size=2.0)
+blueprint = generate_nested_regular_polygon_blueprint(5, size=3.0)
+# blueprint = strange_polygon_blueprint
 
 print("Blueprint:")
 for item in blueprint:

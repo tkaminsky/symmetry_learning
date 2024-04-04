@@ -1,0 +1,204 @@
+2024-01-31 21:13:23,799 INFO    StreamThr :66920 [internal.py:wandb_internal():86] W&B internal server running at pid: 66920, started at: 2024-01-31 21:13:23.799212
+2024-01-31 21:13:23,800 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: status
+2024-01-31 21:13:23,801 INFO    WriterThread:66920 [datastore.py:open_for_write():87] open: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\run-b1isks5d.wandb
+2024-01-31 21:13:23,803 DEBUG   SenderThread:66920 [sender.py:send():382] send: header
+2024-01-31 21:13:23,832 DEBUG   SenderThread:66920 [sender.py:send():382] send: run
+2024-01-31 21:13:24,788 INFO    SenderThread:66920 [dir_watcher.py:__init__():211] watching files in: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files
+2024-01-31 21:13:24,788 INFO    SenderThread:66920 [sender.py:_start_run_threads():1136] run started: b1isks5d with start time 1706753603.800218
+2024-01-31 21:13:24,799 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: check_version
+2024-01-31 21:13:24,801 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: check_version
+2024-01-31 21:13:25,205 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: run_start
+2024-01-31 21:13:26,779 DEBUG   HandlerThread:66920 [system_info.py:__init__():27] System info init
+2024-01-31 21:13:26,779 DEBUG   HandlerThread:66920 [system_info.py:__init__():42] System info init done
+2024-01-31 21:13:26,779 INFO    HandlerThread:66920 [system_monitor.py:start():194] Starting system monitor
+2024-01-31 21:13:26,779 INFO    SystemMonitor:66920 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-31 21:13:26,779 INFO    HandlerThread:66920 [system_monitor.py:probe():214] Collecting system info
+2024-01-31 21:13:26,795 INFO    SystemMonitor:66920 [interfaces.py:start():190] Started cpu monitoring
+2024-01-31 21:13:26,795 INFO    SystemMonitor:66920 [interfaces.py:start():190] Started disk monitoring
+2024-01-31 21:13:26,796 INFO    SystemMonitor:66920 [interfaces.py:start():190] Started gpu monitoring
+2024-01-31 21:13:26,796 INFO    SystemMonitor:66920 [interfaces.py:start():190] Started memory monitoring
+2024-01-31 21:13:26,805 INFO    SystemMonitor:66920 [interfaces.py:start():190] Started network monitoring
+2024-01-31 21:13:26,817 DEBUG   HandlerThread:66920 [system_info.py:probe():151] Probing system
+2024-01-31 21:13:26,818 DEBUG   HandlerThread:66920 [system_info.py:_probe_git():136] Probing git
+2024-01-31 21:13:26,870 DEBUG   HandlerThread:66920 [system_info.py:_probe_git():144] Probing git done
+2024-01-31 21:13:26,870 DEBUG   HandlerThread:66920 [system_info.py:probe():199] Probing system done
+2024-01-31 21:13:26,870 DEBUG   HandlerThread:66920 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-02-01T02:13:26.817077', 'startedAt': '2024-02-01T02:13:23.783724', 'docker': None, 'cuda': None, 'args': ('-c', 'bc'), 'state': 'running', 'program': 'C:\\Users\\tomda\\Desktop\\symmetry_learning\\symmetry_shift_runner.py', 'codePathLocal': 'symmetry_shift_runner.py', 'codePath': 'symmetry_shift_runner.py', 'git': {'remote': 'git@github.com:tkaminsky/symmetry_learning.git', 'commit': 'ffba65af91d1ba4999bc200beca3888cc6613e10'}, 'email': 'tomdavkam@gmail.com', 'root': 'C:/Users/tomda/Desktop/symmetry_learning', 'host': 'tomdavkam', 'username': 'tomda', 'executable': 'C:\\Users\\tomda\\anaconda3\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3195.0, 'min': 0.0, 'max': 4001.0}, 'cpu_freq_per_core': [{'current': 3195.0, 'min': 0.0, 'max': 4001.0}], 'disk': {'/': {'total': 794.588981628418, 'used': 620.6282043457031}}, 'gpu': 'NVIDIA GeForce RTX 4070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 31.21628189086914}}
+2024-01-31 21:13:26,870 INFO    HandlerThread:66920 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-31 21:13:26,870 INFO    HandlerThread:66920 [system_monitor.py:probe():227] Publishing system info
+2024-01-31 21:13:26,870 DEBUG   HandlerThread:66920 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-31 21:13:27,825 INFO    Thread-16 :66920 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\conda-environment.yaml
+2024-01-31 21:13:28,835 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-01-31 21:13:28,836 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-01-31 21:13:29,223 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-01-31 21:13:29,223 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-01-31 21:13:31,237 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-01-31 21:13:31,237 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-01-31 21:13:31,631 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-01-31 21:13:31,631 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-01-31 21:13:33,644 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-01-31 21:13:33,644 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-01-31 21:13:33,898 INFO    Thread-16 :66920 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\conda-environment.yaml
+2024-01-31 21:13:33,959 DEBUG   HandlerThread:66920 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-31 21:13:33,970 INFO    HandlerThread:66920 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-31 21:13:33,973 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 21:13:33,973 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-31 21:13:33,974 DEBUG   SenderThread:66920 [sender.py:send():382] send: files
+2024-01-31 21:13:33,974 INFO    SenderThread:66920 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-31 21:13:33,978 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-31 21:13:33,980 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: python_packages
+2024-01-31 21:13:33,980 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 21:13:33,980 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 21:13:33,981 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: stop_status
+2024-01-31 21:13:34,038 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-01-31 21:13:34,038 ERROR   gpu       :66920 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-01-31 21:13:34,101 DEBUG   SenderThread:66920 [sender.py:send():382] send: telemetry
+2024-01-31 21:13:34,380 DEBUG   SenderThread:66920 [sender.py:send():382] send: exit
+2024-01-31 21:13:34,380 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 21:13:34,380 INFO    SenderThread:66920 [sender.py:send_exit():589] handling exit code: 1
+2024-01-31 21:13:34,380 INFO    SenderThread:66920 [sender.py:send_exit():591] handling runtime: 9
+2024-01-31 21:13:34,381 INFO    SenderThread:66920 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-31 21:13:34,381 INFO    SenderThread:66920 [sender.py:send_exit():597] send defer
+2024-01-31 21:13:34,382 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,382 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-31 21:13:34,382 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,382 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-31 21:13:34,382 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 1
+2024-01-31 21:13:34,382 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,382 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-31 21:13:34,382 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,382 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-31 21:13:34,382 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 2
+2024-01-31 21:13:34,383 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,383 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-31 21:13:34,383 INFO    HandlerThread:66920 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-31 21:13:34,383 DEBUG   SystemMonitor:66920 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-31 21:13:34,396 INFO    HandlerThread:66920 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-31 21:13:34,396 DEBUG   SystemMonitor:66920 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-31 21:13:34,397 INFO    HandlerThread:66920 [interfaces.py:finish():202] Joined disk monitor
+2024-01-31 21:13:34,397 DEBUG   SystemMonitor:66920 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-31 21:13:34,506 INFO    HandlerThread:66920 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-31 21:13:34,507 INFO    HandlerThread:66920 [interfaces.py:finish():202] Joined memory monitor
+2024-01-31 21:13:34,507 INFO    HandlerThread:66920 [interfaces.py:finish():202] Joined network monitor
+2024-01-31 21:13:34,507 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,507 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-31 21:13:34,507 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 3
+2024-01-31 21:13:34,507 DEBUG   SenderThread:66920 [sender.py:send():382] send: stats
+2024-01-31 21:13:34,507 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,508 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-31 21:13:34,508 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,508 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-31 21:13:34,508 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 4
+2024-01-31 21:13:34,508 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,508 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-31 21:13:34,508 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,508 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-31 21:13:34,508 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 5
+2024-01-31 21:13:34,508 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,508 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-31 21:13:34,508 DEBUG   SenderThread:66920 [sender.py:send():382] send: summary
+2024-01-31 21:13:34,509 INFO    SenderThread:66920 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-31 21:13:34,509 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,509 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-31 21:13:34,509 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 6
+2024-01-31 21:13:34,510 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,510 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-31 21:13:34,510 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,510 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-31 21:13:34,513 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 21:13:34,640 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 7
+2024-01-31 21:13:34,640 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:34,640 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-31 21:13:34,640 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:34,640 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-31 21:13:34,908 INFO    Thread-16 :66920 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\config.yaml
+2024-01-31 21:13:34,909 INFO    Thread-16 :66920 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\requirements.txt
+2024-01-31 21:13:34,909 INFO    Thread-16 :66920 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\output.log
+2024-01-31 21:13:34,909 INFO    Thread-16 :66920 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\wandb-summary.json
+2024-01-31 21:13:34,909 INFO    Thread-16 :66920 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\wandb-metadata.json
+2024-01-31 21:13:35,019 INFO    wandb-upload_0:66920 [upload_job.py:push():131] Uploaded file C:\Users\tomda\AppData\Local\Temp\tmp3hcxp1o9wandb\y8avod1d-wandb-metadata.json
+2024-01-31 21:13:35,390 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 21:13:36,382 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 8
+2024-01-31 21:13:36,382 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 21:13:36,382 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:36,384 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-31 21:13:36,384 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:36,384 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-31 21:13:36,384 INFO    SenderThread:66920 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-31 21:13:36,384 INFO    SenderThread:66920 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-31 21:13:36,402 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 21:13:36,428 INFO    SenderThread:66920 [job_builder.py:build():402] adding wandb-job metadata file
+2024-01-31 21:13:36,438 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 9
+2024-01-31 21:13:36,438 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 21:13:36,438 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:36,438 DEBUG   SenderThread:66920 [sender.py:send():382] send: artifact
+2024-01-31 21:13:36,438 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-31 21:13:36,854 INFO    SenderThread:66920 [sender.py:send_artifact():1494] sent artifact job-git_github.com_tkaminsky_symmetry_learning.git_symmetry_shift_runner.py - {'id': 'QXJ0aWZhY3Q6NzAzMjAxMTYw', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMzc4NTAzNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzAzMzA5MTYy', 'versionIndex': 2}}}
+2024-01-31 21:13:36,854 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:36,854 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-31 21:13:36,854 INFO    SenderThread:66920 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-31 21:13:36,924 INFO    SenderThread:66920 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\output.log
+2024-01-31 21:13:36,924 INFO    SenderThread:66920 [dir_watcher.py:finish():388] scan: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files
+2024-01-31 21:13:36,924 INFO    SenderThread:66920 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\conda-environment.yaml conda-environment.yaml
+2024-01-31 21:13:36,925 INFO    SenderThread:66920 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\config.yaml config.yaml
+2024-01-31 21:13:36,926 INFO    SenderThread:66920 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\output.log output.log
+2024-01-31 21:13:36,928 INFO    SenderThread:66920 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\requirements.txt requirements.txt
+2024-01-31 21:13:36,929 INFO    SenderThread:66920 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\wandb-metadata.json wandb-metadata.json
+2024-01-31 21:13:36,930 INFO    SenderThread:66920 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\wandb-summary.json wandb-summary.json
+2024-01-31 21:13:36,933 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 10
+2024-01-31 21:13:36,933 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:36,934 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-31 21:13:36,935 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:36,935 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-31 21:13:36,935 INFO    SenderThread:66920 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-31 21:13:37,137 INFO    wandb-upload_1:66920 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\config.yaml
+2024-01-31 21:13:37,406 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 21:13:37,406 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 21:13:37,572 INFO    wandb-upload_4:66920 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\wandb-summary.json
+2024-01-31 21:13:37,577 INFO    wandb-upload_0:66920 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\conda-environment.yaml
+2024-01-31 21:13:38,054 INFO    wandb-upload_3:66920 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\requirements.txt
+2024-01-31 21:13:38,089 INFO    wandb-upload_2:66920 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\files\output.log
+2024-01-31 21:13:38,300 INFO    Thread-15 (_thread_body):66920 [sender.py:transition_state():617] send defer: 11
+2024-01-31 21:13:38,300 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:38,300 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-31 21:13:38,300 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:38,300 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-31 21:13:38,302 INFO    SenderThread:66920 [file_pusher.py:join():181] waiting for file pusher
+2024-01-31 21:13:38,302 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 12
+2024-01-31 21:13:38,302 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:38,302 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-31 21:13:38,302 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:38,302 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-31 21:13:38,302 INFO    SenderThread:66920 [file_stream.py:finish():595] file stream finish called
+2024-01-31 21:13:38,389 INFO    SenderThread:66920 [file_stream.py:finish():599] file stream finish is done
+2024-01-31 21:13:38,390 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 13
+2024-01-31 21:13:38,390 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:38,390 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-31 21:13:38,390 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:38,390 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-31 21:13:38,390 INFO    SenderThread:66920 [sender.py:transition_state():617] send defer: 14
+2024-01-31 21:13:38,391 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 21:13:38,391 DEBUG   SenderThread:66920 [sender.py:send():382] send: final
+2024-01-31 21:13:38,391 INFO    HandlerThread:66920 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-31 21:13:38,391 DEBUG   SenderThread:66920 [sender.py:send():382] send: footer
+2024-01-31 21:13:38,391 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: defer
+2024-01-31 21:13:38,391 INFO    SenderThread:66920 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-31 21:13:38,391 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 21:13:38,392 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 21:13:38,392 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: server_info
+2024-01-31 21:13:38,392 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 21:13:38,392 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-31 21:13:38,392 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: poll_exit
+2024-01-31 21:13:38,392 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-31 21:13:38,392 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: server_info
+2024-01-31 21:13:38,392 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 21:13:38,394 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: job_info
+2024-01-31 21:13:38,462 DEBUG   SenderThread:66920 [sender.py:send_request():409] send_request: job_info
+2024-01-31 21:13:38,462 INFO    MainThread:66920 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-01-31 21:13:38,462 INFO    MainThread:66920 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-01-31 21:13:38,462 INFO    MainThread:66920 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-01-31 21:13:38,463 DEBUG   HandlerThread:66920 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-31 21:13:38,463 INFO    HandlerThread:66920 [handler.py:finish():869] shutting down handler
+2024-01-31 21:13:39,408 INFO    WriterThread:66920 [datastore.py:close():296] close: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240131_211323-b1isks5d\run-b1isks5d.wandb
+2024-01-31 21:13:39,470 INFO    SenderThread:66920 [sender.py:finish():1572] shutting down sender
+2024-01-31 21:13:39,470 INFO    SenderThread:66920 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-31 21:13:39,470 INFO    SenderThread:66920 [file_pusher.py:join():181] waiting for file pusher

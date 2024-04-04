@@ -1,0 +1,73 @@
+I moved the objects to:
+[7.50277564 6.30277564]
+[7.20277564 4.80277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[4.20277564 7.50277564]
+[2.10277564 6.00277564]
+I moved the objects to:
+[8.10277564 8.10277564]
+[1.80277564 3.60277564]
+I moved the objects to:
+[6.00277564 3.60277564]
+[2.10277564 3.60277564]
+I moved the objects to:
+[6.00277564 3.60277564]
+[6.60277564 7.80277564]
+I moved the objects to:
+[5.70277564 6.00277564]
+[4.80277564 4.50277564]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[2.70277564 2.40277564]
+[5.70277564 4.80277564]
+I moved the objects to:
+[7.50277564 8.10277564]
+[6.60277564 4.20277564]
+I moved the objects to:
+[5.70277564 2.70277564]
+[6.00277564 8.10277564]
+I moved the objects to:
+[3.60277564 5.70277564]
+[2.10277564 7.50277564]
+I moved the objects to:
+[5.70277564 4.50277564]
+[4.80277564 7.80277564]
+I moved the objects to:
+[6.30277564 4.20277564]
+[7.20277564 5.10277564]
+I moved the objects to:
+[1.80277564 7.50277564]
+[4.50277564 6.00277564]
+I moved the objects to:
+[2.10277564 6.00277564]
+[4.50277564 2.70277564]
+I moved the objects to:
+[2.10277564 5.40277564]
+[2.10277564 7.80277564]
+I moved the objects to:
+[6.60277564 3.00277564]
+[4.20277564 7.80277564]
+Gathered BC Test data.
+Dataset size: 146 Test dataset size: 273
+Beginning BC Training . . .
+cuda:0
+cuda:0
+Epoch 0, Loss 1.8026370406150818, Accuracy 0.18446180555555555
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 365, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 304, in bc
+    loss.backward()
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn

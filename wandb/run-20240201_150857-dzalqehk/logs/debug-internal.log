@@ -1,0 +1,1557 @@
+2024-02-01 15:08:58,005 INFO    StreamThr :54652 [internal.py:wandb_internal():86] W&B internal server running at pid: 54652, started at: 2024-02-01 15:08:58.004428
+2024-02-01 15:08:58,006 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status
+2024-02-01 15:08:58,007 INFO    WriterThread:54652 [datastore.py:open_for_write():87] open: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\run-dzalqehk.wandb
+2024-02-01 15:08:58,009 DEBUG   SenderThread:54652 [sender.py:send():382] send: header
+2024-02-01 15:08:58,040 DEBUG   SenderThread:54652 [sender.py:send():382] send: run
+2024-02-01 15:08:58,448 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: check_version
+2024-02-01 15:08:58,450 INFO    SenderThread:54652 [dir_watcher.py:__init__():211] watching files in: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files
+2024-02-01 15:08:58,450 INFO    SenderThread:54652 [sender.py:_start_run_threads():1136] run started: dzalqehk with start time 1706818138.005428
+2024-02-01 15:08:58,450 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: check_version
+2024-02-01 15:08:58,755 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: run_start
+2024-02-01 15:08:58,775 DEBUG   HandlerThread:54652 [system_info.py:__init__():27] System info init
+2024-02-01 15:08:58,775 DEBUG   HandlerThread:54652 [system_info.py:__init__():42] System info init done
+2024-02-01 15:08:58,775 INFO    HandlerThread:54652 [system_monitor.py:start():194] Starting system monitor
+2024-02-01 15:08:58,776 INFO    SystemMonitor:54652 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-01 15:08:58,776 INFO    HandlerThread:54652 [system_monitor.py:probe():214] Collecting system info
+2024-02-01 15:08:58,785 INFO    SystemMonitor:54652 [interfaces.py:start():190] Started cpu monitoring
+2024-02-01 15:08:58,786 INFO    SystemMonitor:54652 [interfaces.py:start():190] Started disk monitoring
+2024-02-01 15:08:58,786 INFO    SystemMonitor:54652 [interfaces.py:start():190] Started gpu monitoring
+2024-02-01 15:08:58,787 INFO    SystemMonitor:54652 [interfaces.py:start():190] Started memory monitoring
+2024-02-01 15:08:58,797 INFO    SystemMonitor:54652 [interfaces.py:start():190] Started network monitoring
+2024-02-01 15:08:58,801 DEBUG   HandlerThread:54652 [system_info.py:probe():151] Probing system
+2024-02-01 15:08:58,802 DEBUG   HandlerThread:54652 [system_info.py:_probe_git():136] Probing git
+2024-02-01 15:08:58,861 DEBUG   HandlerThread:54652 [system_info.py:_probe_git():144] Probing git done
+2024-02-01 15:08:58,861 DEBUG   HandlerThread:54652 [system_info.py:probe():199] Probing system done
+2024-02-01 15:08:58,861 DEBUG   HandlerThread:54652 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-02-01T20:08:58.801885', 'startedAt': '2024-02-01T20:08:57.990678', 'docker': None, 'cuda': None, 'args': ('-c', 'bc'), 'state': 'running', 'program': 'C:\\Users\\tomda\\Desktop\\symmetry_learning\\symmetry_shift_runner.py', 'codePathLocal': 'symmetry_shift_runner.py', 'codePath': 'symmetry_shift_runner.py', 'git': {'remote': 'git@github.com:tkaminsky/symmetry_learning.git', 'commit': 'ffba65af91d1ba4999bc200beca3888cc6613e10'}, 'email': 'tomdavkam@gmail.com', 'root': 'C:/Users/tomda/Desktop/symmetry_learning', 'host': 'tomdavkam', 'username': 'tomda', 'executable': 'C:\\Users\\tomda\\anaconda3\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3195.0, 'min': 0.0, 'max': 4001.0}, 'cpu_freq_per_core': [{'current': 3195.0, 'min': 0.0, 'max': 4001.0}], 'disk': {'/': {'total': 794.588981628418, 'used': 626.496467590332}}, 'gpu': 'NVIDIA GeForce RTX 4070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 31.21628189086914}}
+2024-02-01 15:08:58,861 INFO    HandlerThread:54652 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-01 15:08:58,861 INFO    HandlerThread:54652 [system_monitor.py:probe():227] Publishing system info
+2024-02-01 15:08:58,861 DEBUG   HandlerThread:54652 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-01 15:08:59,454 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\conda-environment.yaml
+2024-02-01 15:09:05,969 DEBUG   HandlerThread:54652 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-01 15:09:05,970 INFO    HandlerThread:54652 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-01 15:09:05,972 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:05,972 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-01 15:09:05,972 DEBUG   SenderThread:54652 [sender.py:send():382] send: files
+2024-02-01 15:09:05,973 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-01 15:09:05,977 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-01 15:09:05,977 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: python_packages
+2024-02-01 15:09:05,978 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:09:05,978 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:09:05,980 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:09:06,081 DEBUG   SenderThread:54652 [sender.py:send():382] send: telemetry
+2024-02-01 15:09:06,509 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\conda-environment.yaml
+2024-02-01 15:09:06,510 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\requirements.txt
+2024-02-01 15:09:06,510 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-metadata.json
+2024-02-01 15:09:06,784 INFO    wandb-upload_0:54652 [upload_job.py:push():131] Uploaded file C:\Users\tomda\AppData\Local\Temp\tmp5mfouv6ywandb\ynglsw9h-wandb-metadata.json
+2024-02-01 15:09:07,512 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:08,917 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:09,519 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:11,530 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:13,544 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:14,304 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:14,545 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:16,558 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:18,562 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:19,911 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:20,579 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:20,979 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:09:20,979 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:09:20,996 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:09:22,584 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:24,599 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:25,129 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:26,606 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:28,615 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:30,631 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:30,640 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:31,656 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\config.yaml
+2024-02-01 15:09:32,668 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:34,672 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:35,984 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:35,984 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:09:35,984 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:09:35,999 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:09:36,688 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:38,700 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:40,708 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:41,133 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:42,719 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:44,732 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:46,227 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:46,742 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:48,764 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:50,772 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:50,971 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:09:50,971 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:09:50,984 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:09:51,630 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:52,776 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:53,778 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:53,779 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:53,779 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:53,780 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:53,781 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:09:54,131 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:54,132 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:54,132 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:54,133 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:54,506 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:54,506 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:54,506 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:54,508 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:54,792 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:09:54,793 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:54,862 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:54,863 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:54,863 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:54,864 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:55,234 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:55,235 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:55,235 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:55,235 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:55,601 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:55,602 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:55,602 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:55,603 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:55,798 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:09:55,953 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:55,953 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:55,953 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:55,955 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:56,261 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:56,262 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:56,262 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:56,263 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:56,614 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:56,615 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:56,615 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:56,616 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:56,799 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:09:56,800 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:56,968 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:56,968 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:09:56,969 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:56,969 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:56,970 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:57,318 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:57,318 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:57,318 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:57,319 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:57,659 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:57,660 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:57,660 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:57,661 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:57,806 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:09:57,994 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:57,995 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:57,995 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:57,996 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:58,298 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:58,299 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:58,299 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:58,300 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:58,644 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:58,645 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:58,645 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:58,645 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:58,809 DEBUG   SystemMonitor:54652 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-01 15:09:58,810 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:09:58,810 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:09:58,811 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:09:58,992 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:58,992 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:58,992 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:58,993 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:59,336 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:59,336 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:59,338 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:59,339 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:59,681 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:09:59,682 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:09:59,682 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:09:59,683 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:09:59,816 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:00,020 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:00,032 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:00,032 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:00,033 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:00,311 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:00,311 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:00,311 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:00,312 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:00,647 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:00,648 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:00,648 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:00,648 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:00,823 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:00,823 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:00,990 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:00,991 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:00,991 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:00,992 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:01,330 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:01,330 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:01,330 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:01,331 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:01,671 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:01,671 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:01,671 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:01,672 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:01,831 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:02,000 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:02,001 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:02,001 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:02,001 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:02,002 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:02,303 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:02,304 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:02,304 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:02,305 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:02,647 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:02,648 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:02,648 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:02,648 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:02,839 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:02,839 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:02,983 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:02,984 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:02,984 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:02,984 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:03,321 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:03,322 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:03,322 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:03,323 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:03,662 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:03,663 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:03,663 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:03,664 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:03,843 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:03,998 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:03,999 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:03,999 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:04,000 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:04,294 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:04,294 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:04,294 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:04,295 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:04,629 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:04,630 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:04,630 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:04,631 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:04,849 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:04,849 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:04,965 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:04,966 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:04,966 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:04,966 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:05,312 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:05,313 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:05,313 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:05,314 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:05,655 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:05,655 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:05,655 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:05,656 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:05,863 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:05,981 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:10:05,981 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:10:05,985 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:10:05,996 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:06,065 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:06,065 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:06,066 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:06,295 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:06,296 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:06,296 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:06,297 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:06,639 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:06,640 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:06,640 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:06,641 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:06,863 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:06,863 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:06,977 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:06,977 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:06,978 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:06,978 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:07,327 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:07,327 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:07,327 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:07,327 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:07,328 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:07,669 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:07,669 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:07,669 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:07,670 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:07,878 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:08,013 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:08,014 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:08,014 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:08,015 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:08,306 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:08,306 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:08,306 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:08,306 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:08,644 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:08,644 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:08,644 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:08,645 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:08,883 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:08,883 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:08,977 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:08,978 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:08,978 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:08,978 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:09,315 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:09,315 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:09,316 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:09,316 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:09,655 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:09,656 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:09,656 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:09,656 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:09,883 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:09,995 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:09,996 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:09,996 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:09,996 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:10,287 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:10,288 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:10,288 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:10,288 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:10,630 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:10,630 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:10,630 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:10,631 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:10,885 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:10,885 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:10,961 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:10,962 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:10,962 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:10,963 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:11,306 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:11,306 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:11,306 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:11,307 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:11,649 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:11,649 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:11,649 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:11,650 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:11,890 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:11,994 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:11,995 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:11,995 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:11,995 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:12,290 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:12,290 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:12,291 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:12,291 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:12,639 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:12,640 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:12,640 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:12,640 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:12,641 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:12,893 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:12,893 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:12,978 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:12,978 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:12,979 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:12,979 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:13,325 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:13,326 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:13,326 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:13,327 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:13,671 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:13,671 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:13,671 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:13,672 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:13,910 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:14,008 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:14,009 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:14,009 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:14,009 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:14,302 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:14,302 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:14,302 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:14,303 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:14,645 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:14,645 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:14,645 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:14,646 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:14,918 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:14,918 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:14,989 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:14,989 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:14,989 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:14,990 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:15,328 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:15,328 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:15,328 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:15,329 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:15,676 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:15,678 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:15,678 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:15,678 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:15,924 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:16,017 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:16,018 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:16,018 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:16,018 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:16,313 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:16,313 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:16,313 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:16,314 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:16,654 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:16,654 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:16,655 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:16,655 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:16,925 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:16,926 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:16,991 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:16,992 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:16,992 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:16,992 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:17,335 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:17,336 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:17,336 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:17,336 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:17,679 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:17,679 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:17,679 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:17,679 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:17,680 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:17,940 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:18,015 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:18,015 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:18,016 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:18,016 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:18,308 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:18,308 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:18,308 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:18,309 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:18,645 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:18,646 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:18,646 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:18,646 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:18,943 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:18,943 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:18,986 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:18,986 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:18,987 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:18,987 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:19,320 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:19,320 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:19,320 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:19,321 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:19,655 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:19,656 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:19,656 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:19,656 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:19,946 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:19,993 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:19,994 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:19,994 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:19,994 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:20,279 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:20,279 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:20,279 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:20,279 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:20,622 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:20,623 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:20,623 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:20,624 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:20,948 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:20,948 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:20,965 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:20,965 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:20,965 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:20,966 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:20,973 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:10:20,973 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:10:20,985 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:10:21,302 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:21,303 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:21,303 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:21,304 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:21,642 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:21,642 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:21,642 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:21,643 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:21,963 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:21,986 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:21,987 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:21,987 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:21,988 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:22,282 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:22,283 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:22,283 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:22,284 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:22,628 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:22,628 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:22,628 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:22,629 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:22,968 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:22,968 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:22,968 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:22,968 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:22,969 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:22,972 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:22,973 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:23,310 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:23,311 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:23,311 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:23,311 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:23,663 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:23,664 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:23,664 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:23,664 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:23,977 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:23,999 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:23,999 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:23,999 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:23,999 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:24,289 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:24,289 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:24,289 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:24,290 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:24,633 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:24,633 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:24,633 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:24,634 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:24,966 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:24,968 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:24,968 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:24,968 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:24,979 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:24,980 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:25,303 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:25,303 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:25,304 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:25,304 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:25,639 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:25,640 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:25,640 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:25,641 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:25,980 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:25,980 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:25,980 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:25,981 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:25,982 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:26,272 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:26,273 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:26,273 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:26,273 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:26,615 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:26,615 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:26,615 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:26,616 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:26,948 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:26,948 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:26,948 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:26,949 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:26,985 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:26,985 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:27,291 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:27,292 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:27,292 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:27,293 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:27,634 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:27,635 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:27,635 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:27,636 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:27,978 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:27,978 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:27,978 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:27,978 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:27,979 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:27,990 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:28,263 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:28,264 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:28,264 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:28,266 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:28,595 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:28,606 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:28,606 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:28,608 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:28,818 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:10:28,931 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:28,932 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:28,932 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:28,933 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:28,990 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:28,990 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:29,268 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:29,268 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:29,269 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:29,269 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:29,603 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:29,603 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:29,614 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:29,615 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:29,948 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:29,949 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:29,949 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:29,949 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:29,995 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:30,236 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:30,237 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:30,237 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:30,237 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:30,573 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:30,573 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:30,573 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:30,574 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:30,915 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:30,915 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:30,916 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:30,916 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:31,001 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:31,002 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:31,252 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:31,253 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:31,253 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:31,254 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:31,606 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:31,608 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:31,608 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:31,609 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:31,937 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:31,937 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:31,937 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:31,938 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:32,005 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:32,242 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:32,243 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:32,243 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:32,244 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:32,595 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:32,596 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:32,597 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:32,597 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:32,932 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:32,933 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:32,933 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:32,934 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:33,007 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:33,007 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:33,291 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:33,291 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:33,292 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:33,292 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:33,292 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:33,633 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:33,634 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:33,634 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:33,635 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:33,984 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:33,984 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:33,984 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:33,985 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:34,022 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:34,278 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:34,280 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:34,280 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:34,281 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:34,631 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:34,631 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:34,632 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:34,632 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:34,980 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:34,980 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:34,980 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:34,981 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:35,025 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:35,026 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:35,321 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:35,321 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:35,321 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:35,322 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:35,665 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:35,665 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:35,665 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:35,666 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:35,975 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:10:35,976 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:10:35,988 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:10:36,010 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:36,031 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:36,144 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:36,144 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:36,145 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:36,306 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:36,306 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:36,308 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:36,308 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:36,646 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:36,648 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:36,648 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:36,648 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:36,988 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:36,988 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:36,988 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:36,989 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:37,040 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:37,041 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:37,326 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:37,326 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:37,326 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:37,327 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:37,669 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:37,670 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:37,670 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:37,670 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:38,006 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:38,006 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:38,006 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:38,008 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:38,045 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:38,297 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:38,297 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:38,297 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:38,297 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:38,299 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:38,642 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:38,643 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:38,643 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:38,643 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:38,983 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:38,984 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:38,984 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:38,984 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:39,049 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:39,049 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:39,323 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:39,323 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:39,323 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:39,324 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:39,659 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:39,660 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:39,660 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:39,661 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:40,003 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:40,004 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:40,004 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:40,005 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:40,054 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:40,290 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:40,290 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:40,290 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:40,291 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:40,632 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:40,632 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:40,632 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:40,633 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:40,979 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:40,980 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:40,980 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:40,981 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:41,058 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:41,058 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:41,315 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:41,315 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:41,316 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:41,316 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:41,656 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:41,656 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:41,656 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:41,656 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:42,000 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:42,001 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:42,001 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:42,002 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:42,070 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:42,295 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:42,295 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:42,295 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:42,296 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:42,649 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:42,650 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:42,650 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:42,651 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:42,989 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:42,990 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:42,990 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:42,991 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:43,074 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:43,074 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:43,329 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:43,329 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:43,329 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:43,329 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:43,330 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:43,666 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:43,667 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:43,667 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:43,668 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:44,009 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:44,010 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:44,010 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:44,010 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:44,080 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:44,293 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:44,294 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:44,294 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:44,295 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:44,631 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:44,631 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:44,631 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:44,632 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:44,966 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:44,966 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:44,966 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:44,967 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:45,084 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:45,084 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:45,298 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:45,298 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:45,298 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:45,299 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:45,637 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:45,637 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:45,637 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:45,638 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:45,970 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:45,970 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:45,970 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:45,971 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:46,089 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:46,260 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:46,260 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:46,260 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:46,261 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:46,604 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:46,604 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:46,604 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:46,605 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:46,938 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:46,938 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:46,939 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:46,939 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:47,091 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:47,092 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:47,277 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:47,277 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:47,277 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:47,278 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:47,612 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:47,613 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:47,613 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:47,614 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:47,954 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:47,955 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:47,955 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:47,956 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:48,096 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:48,249 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:48,249 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:48,249 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:48,250 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:48,583 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:48,583 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:48,583 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:48,583 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:48,586 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:48,933 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:48,933 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:48,933 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:48,934 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:49,099 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:49,100 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:49,271 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:49,272 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:49,272 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:49,273 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:49,618 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:49,619 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:49,619 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:49,620 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:49,969 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:49,970 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:49,970 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:49,971 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:50,108 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:50,269 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:50,269 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:50,269 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:50,270 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:50,612 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:50,612 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:50,613 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:50,613 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:50,950 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:50,950 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:50,951 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:50,951 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:50,974 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:10:50,974 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:10:50,989 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:10:51,112 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:51,113 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:51,286 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:51,286 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:51,286 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:51,288 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:51,636 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:51,637 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:51,637 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:51,638 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:51,988 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:51,988 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:51,988 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:51,988 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:52,118 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:52,304 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:52,304 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:52,304 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:52,305 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:52,649 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:52,650 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:52,650 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:52,651 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:52,996 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:52,996 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:52,998 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:52,998 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:53,134 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:53,134 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:53,345 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:53,345 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:53,345 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:53,346 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:53,679 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:53,679 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:53,680 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:53,680 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:53,680 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:54,044 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:54,045 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:54,045 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:54,045 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:54,145 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:54,402 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:54,403 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:54,403 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:54,404 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:54,742 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:54,743 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:54,743 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:54,744 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:55,106 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:55,107 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:55,107 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:55,108 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:55,161 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:55,161 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:55,479 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:55,480 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:55,480 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:55,481 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:55,866 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:55,869 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:55,869 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:55,870 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:56,170 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:56,228 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:56,228 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:56,228 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:56,229 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:56,524 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:56,524 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:56,524 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:56,525 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:56,869 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:56,870 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:56,870 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:56,871 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:57,185 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:57,186 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:57,225 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:57,225 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:57,226 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:57,226 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:57,571 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:57,571 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:57,571 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:57,572 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:57,908 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:57,909 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:57,909 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:57,909 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:58,193 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:58,265 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:58,266 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:58,266 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:58,267 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:58,565 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:58,565 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:58,566 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:58,566 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:58,831 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:10:58,832 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:10:58,908 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:58,908 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:58,909 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:58,909 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:59,207 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:10:59,207 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:10:59,254 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:59,255 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:59,255 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:59,256 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:59,601 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:59,601 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:59,602 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:59,602 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:10:59,937 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:10:59,937 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:10:59,937 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:10:59,938 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:00,222 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:00,281 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:00,282 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:00,282 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:00,283 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:00,596 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:00,596 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:00,596 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:00,596 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:00,935 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:00,935 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:00,936 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:00,936 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:01,225 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:01,225 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:01,278 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:01,278 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:01,278 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:01,280 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:01,623 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:01,629 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:01,629 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:01,630 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:01,961 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:01,962 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:01,962 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:01,963 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:02,228 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:02,296 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:02,297 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:02,297 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:02,297 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:02,599 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:02,600 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:02,600 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:02,601 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:02,938 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:02,939 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:02,939 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:02,939 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:03,231 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:03,232 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:03,281 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:03,282 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:03,282 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:03,283 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:03,621 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:03,621 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:03,621 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:03,622 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:03,956 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:03,956 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:03,956 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:03,956 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:03,958 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:04,234 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:04,296 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:04,296 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:04,296 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:04,298 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:04,585 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:04,586 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:04,586 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:04,587 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:04,925 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:04,926 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:04,926 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:04,926 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:05,241 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:05,242 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:05,270 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:05,271 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:05,271 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:05,272 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:05,609 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:05,609 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:05,609 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:05,610 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:05,943 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:05,944 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:05,944 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:05,945 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:05,973 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:11:05,973 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:11:05,989 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:11:06,241 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:06,292 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:06,589 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:06,923 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:06,930 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:06,931 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:06,931 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:06,932 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:06,932 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:06,932 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:06,932 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:06,933 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:06,933 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:07,245 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:07,245 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:07,266 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:07,266 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:07,266 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:07,268 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:07,606 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:07,606 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:07,606 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:07,607 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:07,949 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:07,949 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:07,950 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:07,950 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:08,251 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:08,283 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:08,283 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:08,283 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:08,284 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:08,580 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:08,580 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:08,580 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:08,581 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:08,926 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:08,926 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:08,927 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:08,927 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:09,255 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:09,255 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:09,270 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:09,270 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:09,271 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:09,271 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:09,272 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:09,613 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:09,614 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:09,614 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:09,615 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:09,955 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:09,956 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:09,956 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:09,957 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:10,259 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:10,294 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:10,294 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:10,295 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:10,295 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:10,605 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:10,605 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:10,606 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:10,606 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:10,953 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:10,954 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:10,954 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:10,955 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:11,272 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:11,272 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:11,295 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:11,296 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:11,296 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:11,296 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:11,642 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:11,642 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:11,642 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:11,643 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:11,981 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:11,982 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:11,982 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:11,993 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:12,281 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:12,328 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:12,328 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:12,329 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:12,329 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:12,624 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:12,624 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:12,625 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:12,625 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:12,965 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:12,966 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:12,966 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:12,966 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:13,283 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:13,283 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:13,303 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:13,304 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:13,304 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:13,305 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:13,659 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:13,660 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:13,660 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:13,660 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:13,992 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-01 15:11:13,993 DEBUG   SenderThread:54652 [sender.py:send():382] send: history
+2024-02-01 15:11:13,993 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: summary_record
+2024-02-01 15:11:13,993 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:11:14,295 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:11:15,016 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:15,311 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:11:20,046 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:20,979 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:11:20,980 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:11:20,990 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:11:25,120 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:28,840 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:11:30,859 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:35,898 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:35,969 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:11:35,970 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:11:35,992 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:11:41,178 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:46,222 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:50,970 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:11:50,970 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:11:50,993 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:11:51,298 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:56,357 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:11:58,856 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:12:01,887 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:05,971 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:12:05,972 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:12:05,994 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:12:07,134 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:12,199 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:17,252 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:20,973 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:12:20,974 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:12:20,998 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:12:23,174 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:28,211 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:28,865 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:12:33,890 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:35,983 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:12:35,984 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:12:36,000 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:12:39,555 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:44,587 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:49,621 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:50,975 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:12:50,976 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:12:51,001 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:12:55,140 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:12:58,875 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:13:00,899 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:05,935 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:05,977 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:13:05,978 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:13:06,002 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:13:11,104 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:16,134 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:20,984 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:13:20,984 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:13:21,003 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:13:22,145 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:27,193 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:28,885 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:13:32,905 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:35,990 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:13:35,990 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:13:36,004 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:13:38,187 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:43,242 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:48,273 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:50,993 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:13:50,993 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:13:51,005 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:13:54,236 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:13:58,901 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:13:59,909 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:04,945 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:05,992 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:14:05,992 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:14:06,007 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:14:10,165 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:15,191 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:20,213 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:20,984 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:14:20,984 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:14:21,007 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:14:26,201 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:28,915 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:14:31,945 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:36,000 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:14:36,000 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:14:36,010 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:14:37,167 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:42,180 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:47,219 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:51,011 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:14:51,015 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:14:51,015 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:14:53,164 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:58,211 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:14:58,926 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:15:03,969 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:06,012 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:15:06,029 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:15:06,030 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:15:09,176 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:14,235 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:19,297 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:21,014 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:15:21,030 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:15:21,031 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:15:25,174 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:28,934 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:15:30,955 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:35,979 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:36,015 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:15:36,019 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:15:36,019 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:15:41,199 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:46,241 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:51,002 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:15:51,029 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:15:51,030 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:15:52,133 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:57,202 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:15:58,935 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:16:02,977 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:06,004 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:16:06,019 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:16:06,019 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:16:08,203 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:13,236 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:18,282 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:21,005 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:16:21,017 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:16:21,017 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:16:24,205 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:28,941 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:16:29,954 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:34,992 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:36,007 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:16:36,025 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:16:36,025 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:16:40,230 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:45,273 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:50,304 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:51,007 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:16:51,026 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:16:51,026 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:16:56,247 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:16:58,954 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:17:01,972 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:06,009 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:17:06,031 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:17:06,031 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:17:07,187 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:12,250 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:17,301 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:21,010 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:17:21,017 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:17:21,017 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:17:23,257 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:28,285 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:28,959 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:17:33,988 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:36,011 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:17:36,030 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:17:36,030 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:17:39,219 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:44,265 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:49,318 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:51,012 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:17:51,016 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:17:51,016 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:17:55,315 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:17:58,970 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:18:00,995 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:06,013 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:18:06,021 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:18:06,021 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:18:06,110 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:11,139 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:16,183 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:21,014 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:18:21,018 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:18:21,018 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:18:22,194 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:27,236 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:28,973 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:18:32,990 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:36,016 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:18:36,024 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:18:36,025 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:18:38,135 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:43,164 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:48,206 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:51,018 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:18:51,029 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:18:51,029 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:18:53,597 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:58,646 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:18:58,986 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:19:04,017 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:19:06,019 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:19:06,029 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:19:06,029 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:19:09,148 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:19:14,159 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:19:19,193 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:19:21,016 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-01 15:19:21,017 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: stop_status
+2024-02-01 15:19:21,020 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:19:24,234 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:19:28,995 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:19:30,003 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:19:30,475 DEBUG   SenderThread:54652 [sender.py:send():382] send: exit
+2024-02-01 15:19:30,475 INFO    SenderThread:54652 [sender.py:send_exit():589] handling exit code: 0
+2024-02-01 15:19:30,476 INFO    SenderThread:54652 [sender.py:send_exit():591] handling runtime: 631
+2024-02-01 15:19:30,476 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:19:30,476 INFO    SenderThread:54652 [sender.py:send_exit():597] send defer
+2024-02-01 15:19:30,476 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,476 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-01 15:19:30,478 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,478 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-01 15:19:30,478 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 1
+2024-02-01 15:19:30,478 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,478 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-01 15:19:30,478 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,478 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-01 15:19:30,478 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 2
+2024-02-01 15:19:30,478 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,478 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-01 15:19:30,478 INFO    HandlerThread:54652 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-01 15:19:30,478 DEBUG   SystemMonitor:54652 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-01 15:19:30,488 DEBUG   SystemMonitor:54652 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-01 15:19:30,490 INFO    HandlerThread:54652 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-01 15:19:30,490 INFO    HandlerThread:54652 [interfaces.py:finish():202] Joined disk monitor
+2024-02-01 15:19:30,566 INFO    HandlerThread:54652 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-01 15:19:30,566 INFO    HandlerThread:54652 [interfaces.py:finish():202] Joined memory monitor
+2024-02-01 15:19:30,566 INFO    HandlerThread:54652 [interfaces.py:finish():202] Joined network monitor
+2024-02-01 15:19:30,567 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,567 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-01 15:19:30,567 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 3
+2024-02-01 15:19:30,567 DEBUG   SenderThread:54652 [sender.py:send():382] send: stats
+2024-02-01 15:19:30,567 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,567 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-01 15:19:30,567 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,567 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-01 15:19:30,567 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 4
+2024-02-01 15:19:30,567 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,567 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-01 15:19:30,567 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,567 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-01 15:19:30,567 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 5
+2024-02-01 15:19:30,567 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,567 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-01 15:19:30,567 DEBUG   SenderThread:54652 [sender.py:send():382] send: summary
+2024-02-01 15:19:30,569 INFO    SenderThread:54652 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-01 15:19:30,569 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,569 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-01 15:19:30,569 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 6
+2024-02-01 15:19:30,569 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,569 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-01 15:19:30,569 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,569 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-01 15:19:30,569 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 7
+2024-02-01 15:19:30,569 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: status_report
+2024-02-01 15:19:30,569 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:30,569 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-01 15:19:30,569 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:30,569 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-01 15:19:31,004 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 8
+2024-02-01 15:19:31,005 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:31,005 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-01 15:19:31,005 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:31,005 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-01 15:19:31,005 INFO    SenderThread:54652 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-01 15:19:31,005 INFO    SenderThread:54652 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-01 15:19:31,052 INFO    SenderThread:54652 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-01 15:19:31,060 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 9
+2024-02-01 15:19:31,060 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:31,060 DEBUG   SenderThread:54652 [sender.py:send():382] send: artifact
+2024-02-01 15:19:31,060 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-01 15:19:31,311 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:19:31,311 INFO    Thread-16 :54652 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:19:31,431 INFO    SenderThread:54652 [sender.py:send_artifact():1494] sent artifact job-git_github.com_tkaminsky_symmetry_learning.git_symmetry_shift_runner.py - {'id': 'QXJ0aWZhY3Q6NzEwMDQ4MTI0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMzc4NTAzNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzEwMDk5NTcy', 'versionIndex': 5}}}
+2024-02-01 15:19:31,431 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:31,431 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-01 15:19:31,431 INFO    SenderThread:54652 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-01 15:19:31,483 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-01 15:19:32,319 INFO    SenderThread:54652 [dir_watcher.py:finish():388] scan: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files
+2024-02-01 15:19:32,319 INFO    SenderThread:54652 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\conda-environment.yaml conda-environment.yaml
+2024-02-01 15:19:32,319 INFO    SenderThread:54652 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\config.yaml config.yaml
+2024-02-01 15:19:32,320 INFO    SenderThread:54652 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log output.log
+2024-02-01 15:19:32,321 INFO    SenderThread:54652 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\requirements.txt requirements.txt
+2024-02-01 15:19:32,322 INFO    SenderThread:54652 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-metadata.json wandb-metadata.json
+2024-02-01 15:19:32,322 INFO    SenderThread:54652 [dir_watcher.py:finish():402] scan save: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json wandb-summary.json
+2024-02-01 15:19:32,325 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 10
+2024-02-01 15:19:32,325 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: poll_exit
+2024-02-01 15:19:32,325 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:32,327 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-01 15:19:32,328 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:32,328 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-01 15:19:32,329 INFO    SenderThread:54652 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-01 15:19:32,491 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-01 15:19:32,492 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: poll_exit
+2024-02-01 15:19:32,938 INFO    wandb-upload_0:54652 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\conda-environment.yaml
+2024-02-01 15:19:33,176 INFO    wandb-upload_3:54652 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\requirements.txt
+2024-02-01 15:19:33,179 INFO    wandb-upload_1:54652 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\config.yaml
+2024-02-01 15:19:33,184 INFO    wandb-upload_4:54652 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\wandb-summary.json
+2024-02-01 15:19:33,188 INFO    wandb-upload_2:54652 [upload_job.py:push():131] Uploaded file C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\files\output.log
+2024-02-01 15:19:33,396 INFO    Thread-15 (_thread_body):54652 [sender.py:transition_state():617] send defer: 11
+2024-02-01 15:19:33,396 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:33,396 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-01 15:19:33,397 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:33,397 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-01 15:19:33,397 INFO    SenderThread:54652 [file_pusher.py:join():181] waiting for file pusher
+2024-02-01 15:19:33,397 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 12
+2024-02-01 15:19:33,397 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:33,397 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-01 15:19:33,397 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:33,397 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-01 15:19:33,397 INFO    SenderThread:54652 [file_stream.py:finish():595] file stream finish called
+2024-02-01 15:19:33,504 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-01 15:19:33,610 INFO    SenderThread:54652 [file_stream.py:finish():599] file stream finish is done
+2024-02-01 15:19:33,610 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 13
+2024-02-01 15:19:33,610 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: poll_exit
+2024-02-01 15:19:33,610 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:33,611 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-01 15:19:33,611 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:33,611 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-01 15:19:33,611 INFO    SenderThread:54652 [sender.py:transition_state():617] send defer: 14
+2024-02-01 15:19:33,611 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: defer
+2024-02-01 15:19:33,611 INFO    HandlerThread:54652 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-01 15:19:33,611 DEBUG   SenderThread:54652 [sender.py:send():382] send: final
+2024-02-01 15:19:33,612 DEBUG   SenderThread:54652 [sender.py:send():382] send: footer
+2024-02-01 15:19:33,612 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: defer
+2024-02-01 15:19:33,612 INFO    SenderThread:54652 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-01 15:19:33,612 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-01 15:19:33,613 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: poll_exit
+2024-02-01 15:19:33,613 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-01 15:19:33,613 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: server_info
+2024-02-01 15:19:33,613 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: poll_exit
+2024-02-01 15:19:33,613 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-01 15:19:33,613 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: server_info
+2024-02-01 15:19:33,614 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-01 15:19:33,615 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-01 15:19:33,615 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: job_info
+2024-02-01 15:19:33,672 DEBUG   SenderThread:54652 [sender.py:send_request():409] send_request: job_info
+2024-02-01 15:19:33,672 INFO    MainThread:54652 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-02-01 15:19:33,672 INFO    MainThread:54652 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-02-01 15:19:33,673 INFO    MainThread:54652 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-02-01 15:19:33,674 DEBUG   HandlerThread:54652 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-01 15:19:33,674 INFO    HandlerThread:54652 [handler.py:finish():869] shutting down handler
+2024-02-01 15:19:34,629 INFO    WriterThread:54652 [datastore.py:close():296] close: C:\Users\tomda\Desktop\symmetry_learning\wandb\run-20240201_150857-dzalqehk\run-dzalqehk.wandb
+2024-02-01 15:19:34,677 INFO    SenderThread:54652 [sender.py:finish():1572] shutting down sender
+2024-02-01 15:19:34,677 INFO    SenderThread:54652 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-01 15:19:34,677 INFO    SenderThread:54652 [file_pusher.py:join():181] waiting for file pusher

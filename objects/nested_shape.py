@@ -1,7 +1,7 @@
 from objects.shapes.polygon import Polygon, RegularPolygon
 import numpy as np
 import matplotlib.pyplot as plt
-from helpers import welzl
+from helpers.algos import welzl
 
 VALID_SHAPES = ["polygon", "regular_polygon"]
 COLORS = [
@@ -33,6 +33,7 @@ class NestedShape:
         self.shapes = []
         self.target_indices = []
         self.blueprint = blueprint
+        self.theta = 0
 
         for item in blueprint:
             if item["type"] not in VALID_SHAPES:
@@ -67,8 +68,16 @@ class NestedShape:
         if center is None:
             center = self.center
 
+        self.theta += theta
+        while self.theta > 2 * np.pi:
+            self.theta -= 2 * np.pi
+        while self.theta < 0:
+            self.theta += 2 * np.pi
+
         for shape in self.shapes:
             shape.rotate(theta, center)
+
+        
 
     def translate(self, delta):
         for shape in self.shapes:

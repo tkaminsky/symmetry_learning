@@ -1,0 +1,963 @@
+I moved the objects to:
+[3.30277564 2.10277564]
+[4.50277564 1.80277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[7.20277564 3.30277564]
+[4.50277564 7.80277564]
+I moved the objects to:
+[8.10277564 7.20277564]
+[5.10277564 3.60277564]
+I moved the objects to:
+[2.70277564 6.60277564]
+[4.20277564 2.40277564]
+I moved the objects to:
+[3.90277564 4.50277564]
+[6.30277564 3.60277564]
+I moved the objects to:
+[3.60277564 5.10277564]
+[3.00277564 8.10277564]
+I moved the objects to:
+[2.40277564 1.80277564]
+[3.90277564 5.40277564]
+I moved the objects to:
+[5.10277564 7.50277564]
+[3.90277564 6.00277564]
+I moved the objects to:
+[6.60277564 5.70277564]
+[4.20277564 3.00277564]
+I moved the objects to:
+[6.60277564 6.30277564]
+[2.70277564 7.80277564]
+I moved the objects to:
+[8.10277564 3.30277564]
+[5.70277564 2.40277564]
+I moved the objects to:
+[7.20277564 2.10277564]
+[7.50277564 6.30277564]
+I moved the objects to:
+[3.00277564 4.50277564]
+[7.20277564 2.70277564]
+I moved the objects to:
+[2.10277564 8.10277564]
+[2.70277564 7.80277564]
+I moved the objects to:
+[3.60277564 5.40277564]
+[4.50277564 6.30277564]
+I moved the objects to:
+[2.70277564 6.00277564]
+[6.90277564 3.60277564]
+I moved the objects to:
+[5.10277564 4.80277564]
+[7.20277564 3.90277564]
+I moved the objects to:
+[5.40277564 7.80277564]
+[5.70277564 7.80277564]
+I moved the objects to:
+[6.30277564 5.70277564]
+[6.60277564 3.90277564]
+I moved the objects to:
+[8.10277564 3.00277564]
+[2.70277564 3.60277564]
+I moved the objects to:
+[7.20277564 3.60277564]
+[6.90277564 4.80277564]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[3.90277564 2.40277564]
+[6.90277564 2.10277564]
+I moved the objects to:
+[5.70277564 6.00277564]
+[4.20277564 6.30277564]
+I moved the objects to:
+[2.40277564 4.50277564]
+[2.10277564 6.30277564]
+I moved the objects to:
+[6.90277564 8.10277564]
+[6.00277564 7.80277564]
+I moved the objects to:
+[7.80277564 6.30277564]
+[3.90277564 2.40277564]
+I moved the objects to:
+[6.90277564 3.90277564]
+[7.50277564 2.70277564]
+I moved the objects to:
+[2.70277564 1.80277564]
+[6.00277564 7.50277564]
+I moved the objects to:
+[4.20277564 5.70277564]
+[5.10277564 6.60277564]
+I moved the objects to:
+[4.20277564 3.90277564]
+[3.00277564 7.80277564]
+I moved the objects to:
+[3.90277564 3.00277564]
+[6.30277564 4.80277564]
+I moved the objects to:
+[6.90277564 3.00277564]
+[2.10277564 7.80277564]
+I moved the objects to:
+[1.80277564 3.00277564]
+[4.80277564 5.70277564]
+I moved the objects to:
+[5.40277564 6.90277564]
+[5.10277564 5.70277564]
+I moved the objects to:
+[6.90277564 6.00277564]
+[6.00277564 2.70277564]
+I moved the objects to:
+[7.80277564 5.40277564]
+[3.60277564 4.50277564]
+I moved the objects to:
+[3.90277564 2.10277564]
+[7.50277564 2.10277564]
+I moved the objects to:
+[7.80277564 6.30277564]
+[6.30277564 3.60277564]
+I moved the objects to:
+[4.50277564 4.50277564]
+[2.10277564 7.80277564]
+I moved the objects to:
+[3.30277564 6.60277564]
+[7.20277564 2.70277564]
+I moved the objects to:
+[3.00277564 6.60277564]
+[6.60277564 3.00277564]
+Gathered BC Test data.
+Dataset size: 510 Test dataset size: 598
+Beginning BC Training . . .
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 0, Loss 1.786089688539505, Accuracy 0.22175719246031744
+Test Loss 1.7578375778700177, Test Accuracy 0.25807416267942584
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 1, Loss 1.7309194207191467, Accuracy 0.2882254464285714
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 2, Loss 1.729571372270584, Accuracy 0.28803943452380953
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 3, Loss 1.7262495458126068, Accuracy 0.28816344246031744
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 4, Loss 1.723719298839569, Accuracy 0.2882874503968254
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 5, Loss 1.7207758128643036, Accuracy 0.2881014384920635
+Test Loss 1.740393600965801, Test Accuracy 0.2610645933014354
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 6, Loss 1.7241207957267761, Accuracy 0.3922681051587302
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 7, Loss 1.724713295698166, Accuracy 0.4136594742063492
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 8, Loss 1.7198874950408936, Accuracy 0.38829985119047616
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 9, Loss 1.7129179239273071, Accuracy 0.34697420634920634
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 10, Loss 1.7060132026672363, Accuracy 0.2881944444444444
+Test Loss 1.7323109978123714, Test Accuracy 0.26255980861244016
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 11, Loss 1.692060947418213, Accuracy 0.2880704365079365
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 12, Loss 1.690792292356491, Accuracy 0.28825644841269843
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 13, Loss 1.6889161467552185, Accuracy 0.28825644841269843
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 14, Loss 1.6851952373981476, Accuracy 0.28816344246031744
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 15, Loss 1.6810672581195831, Accuracy 0.2880704365079365
+Test Loss 1.7323676724182933, Test Accuracy 0.27093301435406697
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 16, Loss 1.675422042608261, Accuracy 0.4216889880952381
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 17, Loss 1.6733587384223938, Accuracy 0.4236111111111111
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 18, Loss 1.6665807664394379, Accuracy 0.4351128472222222
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 19, Loss 1.6597859561443329, Accuracy 0.40758308531746035
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 20, Loss 1.6522130072116852, Accuracy 0.3686135912698413
+Test Loss 1.7353512989847284, Test Accuracy 0.2645035885167464
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 21, Loss 1.6530557572841644, Accuracy 0.28813244047619047
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 22, Loss 1.6527451872825623, Accuracy 0.28834945436507936
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 23, Loss 1.6460703313350677, Accuracy 0.28825644841269843
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 24, Loss 1.6372904181480408, Accuracy 0.2882254464285714
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 25, Loss 1.6287475526332855, Accuracy 0.28816344246031744
+Test Loss 1.7272918287076449, Test Accuracy 0.2766148325358852
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 26, Loss 1.628022015094757, Accuracy 0.37648809523809523
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 27, Loss 1.6261729001998901, Accuracy 0.3920510912698413
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 28, Loss 1.6164311170578003, Accuracy 0.38634672619047616
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 29, Loss 1.607602447271347, Accuracy 0.3761780753968254
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 30, Loss 1.5992791950702667, Accuracy 0.37038070436507936
+Test Loss 1.705368249039901, Test Accuracy 0.26854066985645936
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 31, Loss 1.6096660494804382, Accuracy 0.41381448412698413
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 32, Loss 1.610060691833496, Accuracy 0.4036458333333333
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 33, Loss 1.5981198847293854, Accuracy 0.42348710317460314
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 34, Loss 1.5839321613311768, Accuracy 0.44701760912698413
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 35, Loss 1.5713544487953186, Accuracy 0.4154265873015873
+Test Loss 1.7095992251446372, Test Accuracy 0.2972488038277512
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 36, Loss 1.5615296065807343, Accuracy 0.39425223214285715
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 37, Loss 1.562746524810791, Accuracy 0.3997395833333333
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 38, Loss 1.5556826293468475, Accuracy 0.39992559523809523
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 39, Loss 1.545400083065033, Accuracy 0.3823784722222222
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 40, Loss 1.536574363708496, Accuracy 0.3667844742063492
+Test Loss 1.718281814926549, Test Accuracy 0.31309808612440193
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 41, Loss 1.529757797718048, Accuracy 0.39248511904761907
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 42, Loss 1.5283348858356476, Accuracy 0.38036334325396826
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 43, Loss 1.5214222371578217, Accuracy 0.37828621031746035
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 44, Loss 1.5128563344478607, Accuracy 0.3783792162698413
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 45, Loss 1.5047013461589813, Accuracy 0.37667410714285715
+Test Loss 1.698482638911197, Test Accuracy 0.2764653110047847
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 46, Loss 1.4843930900096893, Accuracy 0.40200272817460314
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 47, Loss 1.4805501997470856, Accuracy 0.40615699404761907
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 48, Loss 1.474181056022644, Accuracy 0.41796875
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 49, Loss 1.4685820043087006, Accuracy 0.4193948412698413
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 50, Loss 1.4626653790473938, Accuracy 0.41372147817460314
+Test Loss 1.698786735534668, Test Accuracy 0.2767643540669857
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 51, Loss 1.446642279624939, Accuracy 0.4056919642857143
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 52, Loss 1.4433614313602448, Accuracy 0.4038628472222222
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 53, Loss 1.4375392198562622, Accuracy 0.40587797619047616
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 54, Loss 1.4311949014663696, Accuracy 0.40597098214285715
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 55, Loss 1.4256832003593445, Accuracy 0.4056919642857143
+Test Loss 1.6872752779408504, Test Accuracy 0.2553827751196172
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 56, Loss 1.4277609884738922, Accuracy 0.517640128968254
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 57, Loss 1.422201156616211, Accuracy 0.5196552579365079
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 58, Loss 1.4096165001392365, Accuracy 0.51171875
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 59, Loss 1.3970462083816528, Accuracy 0.503968253968254
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 60, Loss 1.3893784284591675, Accuracy 0.45101686507936506
+Test Loss 1.7010905491678339, Test Accuracy 0.30038875598086123
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 61, Loss 1.391744703054428, Accuracy 0.4331597222222222
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 62, Loss 1.3882634341716766, Accuracy 0.44103422619047616
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 63, Loss 1.3787017464637756, Accuracy 0.4508618551587302
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 64, Loss 1.3677967488765717, Accuracy 0.48040674603174605
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 65, Loss 1.3589001595973969, Accuracy 0.486328125
+Test Loss 1.6895516546149003, Test Accuracy 0.2570275119617225
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 66, Loss 1.351900964975357, Accuracy 0.49014136904761907
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 67, Loss 1.3493358492851257, Accuracy 0.49032738095238093
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 68, Loss 1.3420897722244263, Accuracy 0.4942956349206349
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 69, Loss 1.3324719965457916, Accuracy 0.5040302579365079
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 70, Loss 1.3235995471477509, Accuracy 0.5119667658730158
+Test Loss 1.698152742887798, Test Accuracy 0.25687799043062204
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 71, Loss 1.3309089541435242, Accuracy 0.49789186507936506
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 72, Loss 1.3295621573925018, Accuracy 0.49813988095238093
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 73, Loss 1.3207262754440308, Accuracy 0.5037822420634921
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 74, Loss 1.3093624114990234, Accuracy 0.511780753968254
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 75, Loss 1.2994462251663208, Accuracy 0.5193142361111112
+Test Loss 1.685899019241333, Test Accuracy 0.2645035885167464
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 76, Loss 1.3042504787445068, Accuracy 0.5665922619047619
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 77, Loss 1.3003920912742615, Accuracy 0.5667162698412699
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 78, Loss 1.2884345650672913, Accuracy 0.5881076388888888
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 79, Loss 1.2753249406814575, Accuracy 0.5766369047619048
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 80, Loss 1.2669032514095306, Accuracy 0.5588417658730158
+Test Loss 1.6898922669260126, Test Accuracy 0.2471590909090909
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 81, Loss 1.2884967625141144, Accuracy 0.5860615079365079
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 82, Loss 1.2855110168457031, Accuracy 0.5766369047619048
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 83, Loss 1.2698240280151367, Accuracy 0.5822792658730158
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 84, Loss 1.251202553510666, Accuracy 0.5608258928571428
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 85, Loss 1.2349218726158142, Accuracy 0.5588107638888888
+Test Loss 1.7155989533976506, Test Accuracy 0.2923145933014354
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 86, Loss 1.2426945269107819, Accuracy 0.5546875
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 87, Loss 1.2345431745052338, Accuracy 0.5669022817460317
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 88, Loss 1.2212799191474915, Accuracy 0.6041976686507937
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 89, Loss 1.209370493888855, Accuracy 0.6137152777777778
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 90, Loss 1.200168788433075, Accuracy 0.5884176587301587
+Test Loss 1.6783461947190135, Test Accuracy 0.23983253588516745
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 91, Loss 1.2217262983322144, Accuracy 0.5863095238095238
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 92, Loss 1.218487799167633, Accuracy 0.5726686507936508
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 93, Loss 1.204524427652359, Accuracy 0.5783730158730158
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 94, Loss 1.1874117255210876, Accuracy 0.5845424107142857
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 95, Loss 1.1761860847473145, Accuracy 0.5803881448412699
+Test Loss 1.6990196202930652, Test Accuracy 0.28498803827751196
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 96, Loss 1.1549305319786072, Accuracy 0.6412140376984127
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 97, Loss 1.1517950594425201, Accuracy 0.6470734126984127
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 98, Loss 1.14680677652359, Accuracy 0.6469494047619048
+cuda:0
+cuda:0
+cuda:0
+cuda:0
+Epoch 99, Loss 1.1418092250823975, Accuracy 0.6369977678571428
+I moved the objects to:
+[6.60277564 7.50277564]
+[7.50277564 7.80277564]
+I moved the objects to:
+[4.20277564 6.30277564]
+[4.20277564 5.40277564]
+I moved the objects to:
+[5.40277564 2.10277564]
+[1.80277564 6.00277564]
+I moved the objects to:
+[5.10277564 5.40277564]
+[6.90277564 2.10277564]
+I moved the objects to:
+[3.60277564 4.80277564]
+[7.20277564 5.40277564]
+I moved the objects to:
+[6.60277564 3.90277564]
+[4.20277564 2.70277564]
+I moved the objects to:
+[6.00277564 3.00277564]
+[7.50277564 1.80277564]
+I moved the objects to:
+[4.50277564 8.10277564]
+[4.20277564 5.10277564]
+I moved the objects to:
+[3.90277564 7.50277564]
+[4.80277564 3.30277564]
+I moved the objects to:
+[4.50277564 5.40277564]
+[7.80277564 6.90277564]
+I moved the objects to:
+[8.10277564 4.20277564]
+[3.00277564 8.10277564]
+I moved the objects to:
+[5.40277564 3.00277564]
+[6.90277564 1.80277564]
+I moved the objects to:
+[8.10277564 6.30277564]
+[6.30277564 2.70277564]
+I moved the objects to:
+[3.90277564 1.80277564]
+[7.80277564 5.40277564]
+I moved the objects to:
+[1.80277564 2.70277564]
+[6.60277564 5.70277564]
+I moved the objects to:
+[4.50277564 2.70277564]
+[3.30277564 6.90277564]
+I moved the objects to:
+[6.00277564 7.20277564]
+[4.80277564 4.20277564]
+I moved the objects to:
+[6.30277564 5.10277564]
+[6.60277564 4.20277564]
+I moved the objects to:
+[3.60277564 7.80277564]
+[2.10277564 7.50277564]
+I moved the objects to:
+[7.50277564 6.60277564]
+[8.10277564 6.60277564]
+I moved the objects to:
+[4.50277564 7.20277564]
+[6.30277564 1.80277564]
+I moved the objects to:
+[6.60277564 8.10277564]
+[6.00277564 1.80277564]
+I moved the objects to:
+[2.40277564 4.50277564]
+[6.00277564 7.50277564]
+I moved the objects to:
+[7.50277564 2.40277564]
+[3.60277564 7.80277564]
+I moved the objects to:
+[2.40277564 2.70277564]
+[1.80277564 7.20277564]
+I moved the objects to:
+[7.50277564 6.90277564]
+[7.80277564 2.10277564]
+I moved the objects to:
+[7.50277564 5.40277564]
+[3.60277564 2.10277564]
+I moved the objects to:
+[7.80277564 3.90277564]
+[3.90277564 2.40277564]
+I moved the objects to:
+[1.80277564 4.20277564]
+[1.80277564 6.90277564]
+I moved the objects to:
+[4.20277564 3.30277564]
+[6.00277564 4.80277564]
+I moved the objects to:
+[7.20277564 5.10277564]
+[3.30277564 6.90277564]
+I moved the objects to:
+[3.00277564 5.40277564]
+[6.90277564 4.50277564]
+I moved the objects to:
+[2.70277564 5.40277564]
+[6.30277564 1.80277564]
+I moved the objects to:
+[8.10277564 3.30277564]
+[6.30277564 6.60277564]
+I moved the objects to:
+[6.00277564 2.70277564]
+[5.70277564 6.60277564]
+I moved the objects to:
+[5.10277564 2.70277564]
+[5.10277564 1.80277564]
+I moved the objects to:
+[4.50277564 3.90277564]
+[2.40277564 6.30277564]
+I moved the objects to:
+[4.20277564 5.70277564]
+[3.30277564 6.30277564]
+I moved the objects to:
+[5.10277564 6.90277564]
+[2.10277564 4.20277564]
+I moved the objects to:
+[7.20277564 3.90277564]
+[3.60277564 2.70277564]
+I moved the objects to:
+[4.20277564 5.40277564]
+[4.20277564 7.80277564]
+I moved the objects to:
+[8.10277564 2.40277564]
+[6.00277564 3.30277564]
+I moved the objects to:
+[5.70277564 4.80277564]
+[2.70277564 6.60277564]
+I moved the objects to:
+[7.80277564 3.90277564]
+[2.10277564 6.90277564]
+I moved the objects to:
+[3.90277564 6.90277564]
+[4.20277564 7.50277564]
+I moved the objects to:
+[7.50277564 2.70277564]
+[2.10277564 7.20277564]
+I moved the objects to:
+[5.10277564 7.80277564]
+[3.90277564 6.90277564]
+I moved the objects to:
+[8.10277564 5.70277564]
+[4.50277564 2.10277564]
+I moved the objects to:
+[4.20277564 5.10277564]
+[6.60277564 4.50277564]
+I moved the objects to:
+[3.00277564 7.80277564]
+[8.10277564 4.50277564]
+I moved the objects to:
+[3.60277564 2.70277564]
+[5.70277564 3.90277564]
+I moved the objects to:
+[3.90277564 3.60277564]
+[4.50277564 5.70277564]
+I moved the objects to:
+[3.30277564 5.10277564]
+[5.70277564 3.60277564]
+I moved the objects to:
+[8.10277564 4.80277564]
+[6.60277564 1.80277564]
+I moved the objects to:
+[7.20277564 6.60277564]
+[5.10277564 5.40277564]
+I moved the objects to:
+[5.70277564 4.80277564]
+[2.70277564 4.50277564]
+I moved the objects to:
+[1.80277564 5.70277564]
+[3.60277564 7.20277564]
+I moved the objects to:
+[6.00277564 3.30277564]
+[6.00277564 4.80277564]
+I moved the objects to:
+[3.60277564 2.40277564]
+[3.90277564 6.30277564]
+I moved the objects to:
+[5.10277564 5.10277564]
+[2.70277564 2.40277564]
+I moved the objects to:
+[7.50277564 7.80277564]
+[6.30277564 5.10277564]
+I moved the objects to:
+[3.90277564 2.40277564]
+[5.40277564 6.30277564]
+I moved the objects to:
+[3.90277564 3.60277564]
+[4.80277564 1.80277564]
+I moved the objects to:
+[7.20277564 3.90277564]
+[2.10277564 7.20277564]
+I moved the objects to:
+[7.50277564 3.90277564]
+[3.60277564 7.50277564]
+I moved the objects to:
+[6.00277564 4.50277564]
+[4.50277564 2.40277564]
+I moved the objects to:
+[4.80277564 5.40277564]
+[3.30277564 3.30277564]
+I moved the objects to:
+[2.70277564 6.30277564]
+[3.30277564 7.50277564]
+I moved the objects to:
+[5.70277564 4.50277564]
+[3.00277564 5.70277564]
+I moved the objects to:
+[2.40277564 2.10277564]
+[2.10277564 1.80277564]
+I moved the objects to:
+[3.90277564 7.20277564]
+[7.20277564 6.90277564]
+I moved the objects to:
+[5.10277564 6.00277564]
+[6.30277564 7.20277564]
+I moved the objects to:
+[5.10277564 6.60277564]
+[8.10277564 1.80277564]
+I moved the objects to:
+[5.10277564 2.10277564]
+[3.90277564 7.20277564]
+I moved the objects to:
+[1.80277564 2.40277564]
+[2.70277564 5.10277564]
+I moved the objects to:
+[2.10277564 7.80277564]
+[5.70277564 2.70277564]
+I moved the objects to:
+[2.70277564 3.00277564]
+[7.80277564 7.50277564]
+I moved the objects to:
+[7.20277564 4.80277564]
+[4.20277564 6.90277564]
+I moved the objects to:
+[4.80277564 3.90277564]
+[2.70277564 3.90277564]
+I moved the objects to:
+[6.90277564 1.80277564]
+[7.20277564 4.80277564]
+I moved the objects to:
+[6.90277564 4.50277564]
+[6.30277564 6.60277564]
+I moved the objects to:
+[8.10277564 5.40277564]
+[5.40277564 5.40277564]
+I moved the objects to:
+[4.80277564 3.30277564]
+[3.30277564 4.80277564]
+I moved the objects to:
+[6.90277564 4.50277564]
+[7.80277564 3.30277564]
+I moved the objects to:
+[5.40277564 5.10277564]
+[1.80277564 4.20277564]
+I moved the objects to:
+[7.20277564 3.60277564]
+[5.40277564 2.40277564]
+I moved the objects to:
+[1.80277564 3.60277564]
+[7.20277564 7.50277564]
+I moved the objects to:
+[4.80277564 5.10277564]
+[7.20277564 5.10277564]
+I moved the objects to:
+[7.20277564 2.40277564]
+[1.80277564 4.80277564]
+I moved the objects to:
+[7.20277564 6.30277564]
+[1.80277564 5.70277564]
+I moved the objects to:
+[4.20277564 6.00277564]
+[5.10277564 5.40277564]
+I moved the objects to:
+[5.10277564 3.90277564]
+[5.40277564 1.80277564]
+I moved the objects to:
+[2.70277564 4.80277564]
+[7.50277564 4.20277564]
+I moved the objects to:
+[7.20277564 6.90277564]
+[3.60277564 5.70277564]
+I moved the objects to:
+[3.90277564 5.70277564]
+[6.30277564 4.20277564]
+I moved the objects to:
+[6.60277564 6.30277564]
+[5.70277564 3.00277564]
+I moved the objects to:
+[3.60277564 7.80277564]
+[6.30277564 6.00277564]
+I moved the objects to:
+[7.80277564 7.20277564]
+[5.10277564 6.30277564]
+I moved the objects to:
+[1.80277564 6.60277564]
+[5.10277564 8.10277564]
+I moved the objects to:
+[4.80277564 7.20277564]
+[7.80277564 6.00277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 364, in bcRunner
+    avg_reward = evaluate(env, model)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 350, in evaluate
+    rewards.append(np.sum(trajectory["rewards"]))
+                          ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'rewards'

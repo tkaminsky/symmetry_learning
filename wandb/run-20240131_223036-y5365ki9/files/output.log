@@ -1,0 +1,477 @@
+I moved the objects to:
+[6.70277564 3.20277564]
+[7.20277564 3.10277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[6.00277564 2.90277564]
+[5.90277564 5.00277564]
+I moved the objects to:
+[5.70277564 2.70277564]
+[6.60277564 2.00277564]
+Using cache found in C:\Users\tomda/.cache\torch\hub\pytorch_vision_v0.9.0
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+I moved the objects to:
+[6.80277564 4.60277564]
+[4.20277564 7.50277564]
+I moved the objects to:
+[3.50277564 7.80277564]
+[7.90277564 6.70277564]
+I moved the objects to:
+[6.50277564 2.30277564]
+[6.10277564 3.30277564]
+I moved the objects to:
+[5.20277564 4.80277564]
+[4.60277564 4.70277564]
+I moved the objects to:
+[3.00277564 2.00277564]
+[5.90277564 4.10277564]
+I moved the objects to:
+[2.90277564 6.20277564]
+[6.20277564 2.10277564]
+I moved the objects to:
+[4.70277564 7.00277564]
+[5.10277564 4.20277564]
+I moved the objects to:
+[5.50277564 2.10277564]
+[4.20277564 6.20277564]
+I moved the objects to:
+[7.30277564 1.90277564]
+[3.30277564 2.70277564]
+I moved the objects to:
+[3.70277564 4.10277564]
+[7.40277564 4.90277564]
+I moved the objects to:
+[5.30277564 7.40277564]
+[6.30277564 2.90277564]
+I moved the objects to:
+[3.20277564 6.30277564]
+[5.90277564 6.70277564]
+I moved the objects to:
+[1.80277564 5.20277564]
+[6.70277564 6.40277564]
+I moved the objects to:
+[5.50277564 6.60277564]
+[7.80277564 4.50277564]
+I moved the objects to:
+[3.30277564 3.90277564]
+[7.50277564 7.20277564]
+I moved the objects to:
+[5.30277564 2.00277564]
+[3.10277564 6.80277564]
+I moved the objects to:
+[4.50277564 2.20277564]
+[4.80277564 7.40277564]
+I moved the objects to:
+[5.20277564 2.10277564]
+[4.90277564 3.20277564]
+I moved the objects to:
+[5.00277564 7.80277564]
+[5.30277564 6.50277564]
+I moved the objects to:
+[8.00277564 5.30277564]
+[8.00277564 6.40277564]
+I moved the objects to:
+[7.70277564 3.50277564]
+[2.80277564 2.40277564]
+I moved the objects to:
+[2.60277564 4.40277564]
+[2.00277564 2.00277564]
+I moved the objects to:
+[7.20277564 5.10277564]
+[7.90277564 4.90277564]
+I moved the objects to:
+[5.40277564 6.90277564]
+[5.50277564 4.40277564]
+I moved the objects to:
+[4.00277564 5.00277564]
+[4.50277564 5.80277564]
+I moved the objects to:
+[7.10277564 3.80277564]
+[3.10277564 3.30277564]
+I moved the objects to:
+[7.70277564 6.50277564]
+[3.00277564 4.90277564]
+I moved the objects to:
+[2.60277564 3.80277564]
+[5.20277564 2.10277564]
+I moved the objects to:
+[3.70277564 5.20277564]
+[4.70277564 3.80277564]
+I moved the objects to:
+[4.80277564 4.30277564]
+[3.20277564 7.40277564]
+I moved the objects to:
+[3.50277564 7.60277564]
+[3.50277564 5.90277564]
+I moved the objects to:
+[8.00277564 5.50277564]
+[5.80277564 4.00277564]
+I moved the objects to:
+[5.50277564 3.70277564]
+[2.20277564 5.60277564]
+I moved the objects to:
+[6.60277564 3.40277564]
+[3.40277564 4.10277564]
+I moved the objects to:
+[6.60277564 7.40277564]
+[5.10277564 7.80277564]
+I moved the objects to:
+[6.50277564 3.60277564]
+[5.10277564 4.20277564]
+I moved the objects to:
+[4.40277564 1.90277564]
+[2.20277564 3.90277564]
+I moved the objects to:
+[7.60277564 5.00277564]
+[4.00277564 7.50277564]
+I moved the objects to:
+[2.20277564 6.80277564]
+[7.80277564 4.90277564]
+I moved the objects to:
+[7.30277564 2.10277564]
+[5.60277564 5.00277564]
+I moved the objects to:
+[7.50277564 6.40277564]
+[4.80277564 7.50277564]
+I moved the objects to:
+[3.00277564 6.50277564]
+[1.80277564 5.90277564]
+I moved the objects to:
+[3.80277564 4.40277564]
+[7.60277564 5.10277564]
+I moved the objects to:
+[7.30277564 5.30277564]
+[5.10277564 5.30277564]
+I moved the objects to:
+[4.10277564 2.20277564]
+[4.70277564 5.80277564]
+I moved the objects to:
+[6.50277564 4.40277564]
+[5.00277564 6.10277564]
+I moved the objects to:
+[5.30277564 4.70277564]
+[3.80277564 8.10277564]
+I moved the objects to:
+[2.30277564 6.60277564]
+[7.50277564 2.90277564]
+I moved the objects to:
+[6.00277564 5.60277564]
+[5.70277564 2.80277564]
+I moved the objects to:
+[7.90277564 7.30277564]
+[6.40277564 4.10277564]
+I moved the objects to:
+[4.70277564 6.10277564]
+[4.50277564 4.80277564]
+I moved the objects to:
+[4.60277564 4.30277564]
+[3.00277564 2.00277564]
+I moved the objects to:
+[6.60277564 5.00277564]
+[2.20277564 4.10277564]
+I moved the objects to:
+[4.70277564 5.00277564]
+[3.70277564 2.20277564]
+I moved the objects to:
+[5.20277564 5.80277564]
+[7.50277564 3.80277564]
+I moved the objects to:
+[3.70277564 2.60277564]
+[7.20277564 5.30277564]
+I moved the objects to:
+[5.40277564 7.70277564]
+[3.70277564 3.00277564]
+I moved the objects to:
+[5.60277564 4.60277564]
+[5.40277564 6.70277564]
+I moved the objects to:
+[6.70277564 3.90277564]
+[7.90277564 6.10277564]
+I moved the objects to:
+[5.80277564 7.60277564]
+[5.40277564 3.30277564]
+I moved the objects to:
+[5.40277564 6.40277564]
+[5.30277564 4.50277564]
+I moved the objects to:
+[4.80277564 7.30277564]
+[5.30277564 8.00277564]
+I moved the objects to:
+[7.50277564 4.60277564]
+[4.50277564 4.90277564]
+I moved the objects to:
+[7.00277564 2.20277564]
+[3.20277564 7.70277564]
+I moved the objects to:
+[4.80277564 5.00277564]
+[7.60277564 4.30277564]
+I moved the objects to:
+[8.10277564 6.40277564]
+[6.70277564 4.40277564]
+I moved the objects to:
+[4.40277564 6.30277564]
+[2.10277564 6.90277564]
+I moved the objects to:
+[7.10277564 2.60277564]
+[2.40277564 6.30277564]
+I moved the objects to:
+[4.40277564 7.60277564]
+[6.10277564 5.70277564]
+I moved the objects to:
+[6.50277564 5.90277564]
+[2.40277564 6.60277564]
+I moved the objects to:
+[7.10277564 2.00277564]
+[2.10277564 2.60277564]
+I moved the objects to:
+[5.80277564 2.60277564]
+[5.40277564 3.00277564]
+I moved the objects to:
+[6.10277564 5.30277564]
+[7.20277564 2.40277564]
+I moved the objects to:
+[2.20277564 6.80277564]
+[4.20277564 5.80277564]
+I moved the objects to:
+[5.90277564 6.50277564]
+[6.60277564 7.90277564]
+I moved the objects to:
+[2.60277564 3.20277564]
+[3.90277564 3.80277564]
+I moved the objects to:
+[6.30277564 4.50277564]
+[3.20277564 2.10277564]
+I moved the objects to:
+[2.20277564 6.70277564]
+[5.20277564 4.00277564]
+I moved the objects to:
+[4.60277564 5.40277564]
+[4.90277564 6.80277564]
+I moved the objects to:
+[1.80277564 7.30277564]
+[2.90277564 4.00277564]
+I moved the objects to:
+[3.20277564 4.90277564]
+[8.10277564 5.90277564]
+I moved the objects to:
+[5.50277564 3.10277564]
+[7.30277564 3.90277564]
+I moved the objects to:
+[4.40277564 7.80277564]
+[4.50277564 2.40277564]
+I moved the objects to:
+[4.90277564 5.10277564]
+[2.00277564 4.20277564]
+I moved the objects to:
+[7.40277564 4.50277564]
+[2.80277564 3.30277564]
+I moved the objects to:
+[6.80277564 7.40277564]
+[2.10277564 2.10277564]
+I moved the objects to:
+[6.60277564 7.50277564]
+[6.60277564 6.60277564]
+I moved the objects to:
+[3.30277564 4.40277564]
+[6.30277564 4.70277564]
+I moved the objects to:
+[6.00277564 2.00277564]
+[3.70277564 4.10277564]
+I moved the objects to:
+[3.60277564 2.30277564]
+[7.80277564 6.60277564]
+I moved the objects to:
+[4.80277564 2.80277564]
+[6.00277564 1.80277564]
+I moved the objects to:
+[5.30277564 7.90277564]
+[7.60277564 2.80277564]
+I moved the objects to:
+[2.30277564 5.30277564]
+[4.60277564 4.00277564]
+I moved the objects to:
+[7.10277564 5.10277564]
+[1.80277564 6.20277564]
+I moved the objects to:
+[4.60277564 4.80277564]
+[7.40277564 7.60277564]
+I moved the objects to:
+[7.90277564 4.80277564]
+[7.30277564 7.60277564]
+I moved the objects to:
+[5.60277564 5.60277564]
+[3.00277564 2.40277564]
+I moved the objects to:
+[2.50277564 3.10277564]
+[2.70277564 3.90277564]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[7.90277564 2.60277564]
+[7.60277564 6.20277564]
+I moved the objects to:
+[7.70277564 4.80277564]
+[5.20277564 5.10277564]
+I moved the objects to:
+[6.30277564 7.00277564]
+[7.70277564 6.20277564]
+I moved the objects to:
+[6.80277564 7.80277564]
+[1.80277564 6.60277564]
+I moved the objects to:
+[4.00277564 3.60277564]
+[2.60277564 4.90277564]
+I moved the objects to:
+[4.50277564 7.40277564]
+[3.40277564 5.80277564]
+I moved the objects to:
+[2.60277564 4.00277564]
+[7.30277564 5.40277564]
+I moved the objects to:
+[5.20277564 3.40277564]
+[2.30277564 6.90277564]
+I moved the objects to:
+[3.70277564 4.90277564]
+[3.90277564 1.90277564]
+I moved the objects to:
+[3.50277564 7.40277564]
+[6.00277564 6.40277564]
+I moved the objects to:
+[8.10277564 5.00277564]
+[4.50277564 5.80277564]
+I moved the objects to:
+[5.40277564 7.30277564]
+[6.30277564 5.10277564]
+I moved the objects to:
+[2.40277564 3.50277564]
+[7.60277564 6.00277564]
+I moved the objects to:
+[2.20277564 5.90277564]
+[2.70277564 2.50277564]
+I moved the objects to:
+[1.80277564 5.30277564]
+[5.00277564 7.50277564]
+I moved the objects to:
+[6.00277564 3.60277564]
+[1.90277564 5.70277564]
+I moved the objects to:
+[2.90277564 5.30277564]
+[3.30277564 5.70277564]
+I moved the objects to:
+[2.60277564 5.40277564]
+[3.40277564 3.80277564]
+I moved the objects to:
+[5.80277564 1.80277564]
+[3.70277564 5.00277564]
+I moved the objects to:
+[7.50277564 6.80277564]
+[5.50277564 1.80277564]
+I moved the objects to:
+[4.20277564 5.70277564]
+[2.70277564 3.00277564]
+I moved the objects to:
+[5.60277564 3.20277564]
+[5.60277564 2.70277564]
+I moved the objects to:
+[3.60277564 6.20277564]
+[3.50277564 6.20277564]
+I moved the objects to:
+[4.50277564 3.30277564]
+[2.50277564 7.20277564]
+I moved the objects to:
+[2.40277564 4.00277564]
+[4.10277564 4.30277564]
+I moved the objects to:
+[4.80277564 5.60277564]
+[3.90277564 1.80277564]
+I moved the objects to:
+[2.90277564 7.20277564]
+[7.20277564 8.00277564]
+I moved the objects to:
+[6.50277564 5.90277564]
+[5.70277564 1.80277564]
+I moved the objects to:
+[7.10277564 8.10277564]
+[5.10277564 8.10277564]
+I moved the objects to:
+[2.40277564 2.90277564]
+[7.50277564 6.20277564]
+I moved the objects to:
+[6.60277564 6.70277564]
+[6.60277564 6.30277564]
+I moved the objects to:
+[2.80277564 3.90277564]
+[3.00277564 8.10277564]
+I moved the objects to:
+[6.20277564 4.80277564]
+[8.00277564 5.10277564]
+I moved the objects to:
+[8.10277564 5.60277564]
+[3.50277564 3.20277564]
+I moved the objects to:
+[2.70277564 4.30277564]
+[4.30277564 3.70277564]
+I moved the objects to:
+[3.20277564 5.70277564]
+[5.50277564 7.30277564]
+I moved the objects to:
+[5.20277564 3.80277564]
+[4.50277564 5.50277564]
+I moved the objects to:
+[2.60277564 7.20277564]
+[7.70277564 4.60277564]
+I moved the objects to:
+[3.50277564 7.30277564]
+[4.80277564 3.00277564]
+I moved the objects to:
+[2.50277564 7.80277564]
+[2.40277564 4.90277564]
+I moved the objects to:
+[3.30277564 3.60277564]
+[2.50277564 7.30277564]
+I moved the objects to:
+[6.50277564 8.00277564]
+[3.80277564 7.90277564]
+I moved the objects to:
+[5.20277564 5.20277564]
+[6.90277564 4.10277564]
+I moved the objects to:
+[6.80277564 5.50277564]
+[1.80277564 3.20277564]
+I moved the objects to:
+[2.30277564 3.50277564]
+[2.70277564 2.60277564]
+I moved the objects to:
+[3.70277564 5.50277564]
+[7.70277564 5.20277564]
+I moved the objects to:
+[4.30277564 3.60277564]
+[7.70277564 4.90277564]
+I moved the objects to:
+[2.20277564 2.90277564]
+[3.40277564 5.50277564]
+I moved the objects to:
+[6.60277564 3.80277564]
+[5.60277564 1.90277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 320, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 154, in bc
+    test_states, test_actions = traj_to_sa_pairs(test_trajectories)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 115, in traj_to_sa_pairs
+    states = np.zeros((num_objects, dim[0], dim[1], dim[2]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 36.1 GiB for an array with shape (3939, 3, 640, 640) and data type float64
+I moved the objects to:
+[3.10277564 6.90277564]
+[6.30277564 2.40277564]

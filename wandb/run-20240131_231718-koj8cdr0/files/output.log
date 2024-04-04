@@ -1,0 +1,213 @@
+I moved the objects to:
+[7.80277564 7.20277564]
+[4.20277564 3.30277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[2.70277564 3.60277564]
+[5.10277564 7.50277564]
+I moved the objects to:
+[3.30277564 6.60277564]
+[6.30277564 8.10277564]
+I moved the objects to:
+[1.80277564 3.60277564]
+[8.10277564 6.30277564]
+Using cache found in C:\Users\tomda/.cache\torch\hub\pytorch_vision_v0.9.0
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+I moved the objects to:
+[4.50277564 4.50277564]
+[7.20277564 6.90277564]
+I moved the objects to:
+[2.70277564 7.50277564]
+[5.70277564 7.50277564]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[4.80277564 2.10277564]
+[5.10277564 4.80277564]
+I moved the objects to:
+[5.70277564 7.50277564]
+[3.00277564 5.40277564]
+I moved the objects to:
+[5.40277564 6.90277564]
+[6.90277564 2.70277564]
+I moved the objects to:
+[1.80277564 2.10277564]
+[3.90277564 2.40277564]
+I moved the objects to:
+[6.60277564 3.00277564]
+[7.20277564 2.40277564]
+I moved the objects to:
+[6.60277564 3.60277564]
+[6.00277564 1.80277564]
+I moved the objects to:
+[6.90277564 7.50277564]
+[6.00277564 3.90277564]
+I moved the objects to:
+[3.00277564 3.60277564]
+[6.60277564 3.90277564]
+I moved the objects to:
+[6.00277564 6.30277564]
+[8.10277564 4.80277564]
+I moved the objects to:
+[8.10277564 6.30277564]
+[3.30277564 4.80277564]
+Gathered BC Test data.
+Dataset size: 135 Test dataset size: 291
+Beginning BC Training . . .
+Epoch 0, Loss 2.119105100631714, Accuracy 0.14174107142857142
+Test Loss 1.272315502166748, Test Accuracy 0.05
+Epoch 1, Loss 3.8628177642822266, Accuracy 0.1328125
+Epoch 2, Loss 3.5713768005371094, Accuracy 0.20033482142857142
+Epoch 3, Loss 3.2574729919433594, Accuracy 0.26785714285714285
+Epoch 4, Loss 4.378998279571533, Accuracy 0.1328125
+Epoch 5, Loss 2.394214153289795, Accuracy 0.3353794642857143
+Test Loss 0.7529744505882263, Test Accuracy 0.046875
+Epoch 6, Loss 2.9457383155822754, Accuracy 0.3392857142857143
+Epoch 7, Loss 4.50279426574707, Accuracy 0.20424107142857142
+Epoch 8, Loss 3.3979339599609375, Accuracy 0.3392857142857143
+Epoch 9, Loss 4.1933770179748535, Accuracy 0.13671875
+Epoch 10, Loss 4.418613433837891, Accuracy 0.20424107142857142
+Test Loss 1.1338828802108765, Test Accuracy 0.034375
+Epoch 11, Loss 2.991935968399048, Accuracy 0.27176339285714285
+Epoch 12, Loss 2.99641752243042, Accuracy 0.27176339285714285
+Epoch 13, Loss 2.7174906730651855, Accuracy 0.20424107142857142
+Epoch 14, Loss 2.2717487812042236, Accuracy 0.3392857142857143
+Epoch 15, Loss 2.170501947402954, Accuracy 0.3392857142857143
+Test Loss 0.6125829219818115, Test Accuracy 0.034375
+Epoch 16, Loss 3.6065738201141357, Accuracy 0.20424107142857142
+Epoch 17, Loss 2.5974671840667725, Accuracy 0.20424107142857142
+Epoch 18, Loss 2.8331446647644043, Accuracy 0.27176339285714285
+Epoch 19, Loss 3.0658316612243652, Accuracy 0.20424107142857142
+Epoch 20, Loss 3.3638064861297607, Accuracy 0.27176339285714285
+Test Loss 0.8343423008918762, Test Accuracy 0.034375
+Epoch 21, Loss 3.4364116191864014, Accuracy 0.20424107142857142
+Epoch 22, Loss 1.8303388357162476, Accuracy 0.27176339285714285
+Epoch 23, Loss 2.7636704444885254, Accuracy 0.27176339285714285
+Epoch 24, Loss 2.704587697982788, Accuracy 0.27176339285714285
+Epoch 25, Loss 1.783041000366211, Accuracy 0.27176339285714285
+Test Loss 0.44523879885673523, Test Accuracy 0.06458333333333333
+Epoch 26, Loss 1.7619235515594482, Accuracy 0.27176339285714285
+Epoch 27, Loss 2.689279079437256, Accuracy 0.27176339285714285
+Epoch 28, Loss 2.3379650115966797, Accuracy 0.20424107142857142
+Epoch 29, Loss 2.3456082344055176, Accuracy 0.20424107142857142
+Epoch 30, Loss 2.3821587562561035, Accuracy 0.20424107142857142
+Test Loss 0.7559885382652283, Test Accuracy 0.034375
+Epoch 31, Loss 2.4170777797698975, Accuracy 0.13671875
+Epoch 32, Loss 2.5535991191864014, Accuracy 0.27176339285714285
+Epoch 33, Loss 1.9430032968521118, Accuracy 0.3392857142857143
+Epoch 34, Loss 3.1044676303863525, Accuracy 0.20424107142857142
+Epoch 35, Loss 2.379887819290161, Accuracy 0.3392857142857143
+Test Loss 0.7539072036743164, Test Accuracy 0.034375
+Epoch 36, Loss 3.2001938819885254, Accuracy 0.13671875
+Epoch 37, Loss 2.6323719024658203, Accuracy 0.20424107142857142
+Epoch 38, Loss 1.7457427978515625, Accuracy 0.4068080357142857
+Epoch 39, Loss 3.443988800048828, Accuracy 0.20424107142857142
+Epoch 40, Loss 2.452895402908325, Accuracy 0.27176339285714285
+Test Loss 0.5344896912574768, Test Accuracy 0.034375
+Epoch 41, Loss 2.379774570465088, Accuracy 0.27176339285714285
+Epoch 42, Loss 3.50396990776062, Accuracy 0.13671875
+Epoch 43, Loss 3.0823380947113037, Accuracy 0.13671875
+Epoch 44, Loss 2.4955105781555176, Accuracy 0.20424107142857142
+Epoch 45, Loss 1.8444005250930786, Accuracy 0.3392857142857143
+Test Loss 0.48874756693840027, Test Accuracy 0.034375
+Epoch 46, Loss 2.459638833999634, Accuracy 0.20424107142857142
+Epoch 47, Loss 1.8240060806274414, Accuracy 0.3392857142857143
+Epoch 48, Loss 2.7411866188049316, Accuracy 0.27176339285714285
+Epoch 49, Loss 2.5468125343322754, Accuracy 0.13671875
+Epoch 50, Loss 2.187387704849243, Accuracy 0.3392857142857143
+Test Loss 0.9013280272483826, Test Accuracy 0.034375
+Epoch 51, Loss 3.5809226036071777, Accuracy 0.20424107142857142
+Epoch 52, Loss 2.188478469848633, Accuracy 0.3392857142857143
+Epoch 53, Loss 2.6452748775482178, Accuracy 0.27176339285714285
+Epoch 54, Loss 1.5006483793258667, Accuracy 0.27176339285714285
+Epoch 55, Loss 1.9884840250015259, Accuracy 0.20424107142857142
+Test Loss 0.32693585753440857, Test Accuracy 0.034375
+Epoch 56, Loss 2.328587770462036, Accuracy 0.20424107142857142
+Epoch 57, Loss 2.525120973587036, Accuracy 0.3392857142857143
+Epoch 58, Loss 1.7438637018203735, Accuracy 0.3392857142857143
+Epoch 59, Loss 1.4744250774383545, Accuracy 0.27176339285714285
+Epoch 60, Loss 1.9368962049484253, Accuracy 0.20424107142857142
+Test Loss 0.46249619126319885, Test Accuracy 0.034375
+Epoch 61, Loss 2.1806085109710693, Accuracy 0.27176339285714285
+Epoch 62, Loss 3.416975498199463, Accuracy 0.13671875
+Epoch 63, Loss 2.159858465194702, Accuracy 0.27176339285714285
+Epoch 64, Loss 2.1623895168304443, Accuracy 0.27176339285714285
+Epoch 65, Loss 1.6498702764511108, Accuracy 0.4068080357142857
+Test Loss 0.48151326179504395, Test Accuracy 0.034375
+Epoch 66, Loss 1.7623977661132812, Accuracy 0.27176339285714285
+Epoch 67, Loss 1.797767996788025, Accuracy 0.27176339285714285
+Epoch 68, Loss 1.6198903322219849, Accuracy 0.4068080357142857
+Epoch 69, Loss 1.793569564819336, Accuracy 0.27176339285714285
+Epoch 70, Loss 2.5906577110290527, Accuracy 0.13671875
+Test Loss 0.6194959282875061, Test Accuracy 0.034375
+Epoch 71, Loss 2.480867385864258, Accuracy 0.20424107142857142
+Epoch 72, Loss 2.5719735622406006, Accuracy 0.13671875
+Epoch 73, Loss 2.4101943969726562, Accuracy 0.27176339285714285
+Epoch 74, Loss 2.1603500843048096, Accuracy 0.20424107142857142
+Epoch 75, Loss 2.1367063522338867, Accuracy 0.20424107142857142
+Test Loss 0.6179606914520264, Test Accuracy 0.034375
+Epoch 76, Loss 1.6257997751235962, Accuracy 0.4068080357142857
+Epoch 77, Loss 2.4196078777313232, Accuracy 0.20424107142857142
+Epoch 78, Loss 1.5045959949493408, Accuracy 0.20424107142857142
+Epoch 79, Loss 1.8681167364120483, Accuracy 0.13671875
+Epoch 80, Loss 2.3758981227874756, Accuracy 0.20424107142857142
+Test Loss 0.6955214142799377, Test Accuracy 0.034375
+Epoch 81, Loss 1.7994590997695923, Accuracy 0.20424107142857142
+Epoch 82, Loss 2.0314781665802, Accuracy 0.27176339285714285
+Epoch 83, Loss 1.9350084066390991, Accuracy 0.3392857142857143
+Epoch 84, Loss 1.6332015991210938, Accuracy 0.3392857142857143
+Epoch 85, Loss 2.0677926540374756, Accuracy 0.20424107142857142
+Test Loss 0.5324322581291199, Test Accuracy 0.034375
+Epoch 86, Loss 1.7017419338226318, Accuracy 0.27176339285714285
+Epoch 87, Loss 1.9173240661621094, Accuracy 0.3392857142857143
+Epoch 88, Loss 1.9139665365219116, Accuracy 0.3392857142857143
+Epoch 89, Loss 1.916060447692871, Accuracy 0.3392857142857143
+Epoch 90, Loss 2.504284620285034, Accuracy 0.20424107142857142
+Test Loss 0.3952939212322235, Test Accuracy 0.034375
+Epoch 91, Loss 1.9166259765625, Accuracy 0.27176339285714285
+Epoch 92, Loss 2.118626356124878, Accuracy 0.3392857142857143
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 354, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 324, in bc
+    axs[0].plot(losses)
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\axes\_axes.py", line 1688, in plot
+    lines = [*self._get_lines(*args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\axes\_base.py", line 311, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\axes\_base.py", line 496, in _plot_args
+    x, y = index_of(xy[-1])
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\cbook\__init__.py", line 1661, in index_of
+    y = _check_1d(y)
+        ^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\cbook\__init__.py", line 1353, in _check_1d
+    return np.atleast_1d(x)
+           ^^^^^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 200, in atleast_1d
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\numpy\core\shape_base.py", line 65, in atleast_1d
+    ary = asanyarray(ary)
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\_tensor.py", line 1062, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Epoch 93, Loss 2.167125701904297, Accuracy 0.27176339285714285
+Epoch 94, Loss 1.9380522966384888, Accuracy 0.27176339285714285
+Epoch 95, Loss 1.6334714889526367, Accuracy 0.3392857142857143
+Test Loss 0.5559770464897156, Test Accuracy 0.034375
+Epoch 96, Loss 1.6677097082138062, Accuracy 0.3392857142857143
+Epoch 97, Loss 1.8789771795272827, Accuracy 0.3392857142857143
+Epoch 98, Loss 1.4897714853286743, Accuracy 0.27176339285714285
+Epoch 99, Loss 2.1114513874053955, Accuracy 0.27176339285714285

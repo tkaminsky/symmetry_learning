@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from shapely.geometry.polygon import Polygon as SPoly
-from helpers import welzl
+from helpers.algos import welzl
 import pygame
 
 
@@ -17,7 +17,10 @@ class Polygon(object):
             self.color = np.random.random(size=3).tolist()
 
         # Set points
-        self.points = np.array(blueprint["points"])
+        self.points = np.array(blueprint["points"]).astype(float)
+
+        if self.points.shape[0] != 2:
+            self.points = self.points.T
 
         self.N = self.points.shape[1]
 

@@ -1,0 +1,11 @@
+I moved the objects to:
+[7.20277564 4.00277564]
+[2.40277564 7.80277564]
+I moved the objects to:
+[3.00277564 4.30277564]
+[3.90277564 7.00277564]
+C:\Users\tomda\Desktop\symmetry_learning\helpers\algos.py:72: RuntimeWarning: invalid value encountered in scalar divide
+  return (np.dot(u, v) / np.sqrt(np.dot(v, v)))
+I moved the objects to:
+[1.80277564 4.70277564]
+[6.30277564 2.40277564]

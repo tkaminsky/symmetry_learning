@@ -1,0 +1,63 @@
+I moved the objects to:
+[2.20277564 7.90277564]
+[6.80277564 3.00277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[3.60277564 6.20277564]
+[4.20277564 3.90277564]
+I moved the objects to:
+[7.60277564 2.30277564]
+[3.00277564 5.90277564]
+Using cache found in C:\Users\tomda/.cache\torch\hub\pytorch_vision_v0.9.0
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\tomda\anaconda3\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[1.80277564 4.00277564]
+[5.80277564 7.00277564]
+I moved the objects to:
+[6.00277564 5.90277564]
+[4.90277564 4.60277564]
+Gathered BC Test data.
+Dataset size: 138 Test dataset size: 118
+Beginning BC Training . . .
+torch.Size([3, 160, 160])
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 340, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 200, in bc
+    for i, (states, actions) in enumerate(dataloader):
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 50, in __getitem__
+    plt.imshow(image)
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\pyplot.py", line 2695, in imshow
+    __ret = gca().imshow(
+            ^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\__init__.py", line 1446, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\axes\_axes.py", line 5663, in imshow
+    im.set_data(X)
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\image.py", line 710, in set_data
+    raise TypeError("Invalid shape {} for image data"
+TypeError: Invalid shape (3, 160, 160) for image data

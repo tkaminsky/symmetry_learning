@@ -1,6 +1,11 @@
 import numpy as np
 
 
+####################################################################################################
+# Some functions for generating random blueprints, as well as a few fixed blueprints
+####################################################################################################
+
+# Returns a nested shape of num_objects nested regular polygons, choosing one to be the target
 def generate_nested_regular_polygon_blueprint(
     num_objects, target_idx=None, size=None
 ):
@@ -49,10 +54,6 @@ regular_polygon_blueprint = [
     # {'type': 'regular_polygon', 'N': 5, 'R': .7, 'theta': np.pi/2, 'center': [0, 0], 'target': False},
     # {'type': 'regular_polygon', 'N': 5, 'R': .4, 'theta': 0, 'center': [1, 0], 'target': True}
 ]
-
-# Import numpy and matplotlib
-import numpy as np
-import matplotlib.pyplot as plt
 
 # Make a numpy array with points forming an L-shape
 pointsL = np.array([[0, 0], [2, 0], [2, 1], [1, 1], [1, 2], [0, 2]]).T

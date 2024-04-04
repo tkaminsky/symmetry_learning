@@ -1,0 +1,208 @@
+I moved the objects to:
+[3.00277564 6.00277564]
+[1.80277564 5.10277564]
+Gathering BC Training data . . .
+I moved the objects to:
+[3.30277564 1.80277564]
+[7.50277564 2.40277564]
+I moved the objects to:
+[4.80277564 1.80277564]
+[3.00277564 4.20277564]
+I moved the objects to:
+[2.40277564 6.30277564]
+[4.80277564 6.30277564]
+I moved the objects to:
+[3.60277564 5.70277564]
+[8.10277564 6.60277564]
+I moved the objects to:
+[2.70277564 6.90277564]
+[3.30277564 1.80277564]
+Gathered BC Training data.
+Gathering BC Test data . . .
+I moved the objects to:
+[5.70277564 6.90277564]
+[3.60277564 6.00277564]
+I moved the objects to:
+[4.20277564 7.20277564]
+[4.50277564 3.00277564]
+I moved the objects to:
+[6.60277564 5.70277564]
+[4.20277564 5.10277564]
+I moved the objects to:
+[7.80277564 5.40277564]
+[7.80277564 6.90277564]
+I moved the objects to:
+[3.00277564 5.70277564]
+[5.10277564 3.30277564]
+I moved the objects to:
+[5.40277564 6.60277564]
+[6.90277564 5.40277564]
+I moved the objects to:
+[8.10277564 5.40277564]
+[5.10277564 5.10277564]
+I moved the objects to:
+[2.10277564 6.00277564]
+[5.70277564 7.50277564]
+I moved the objects to:
+[3.30277564 6.30277564]
+[4.80277564 3.30277564]
+I moved the objects to:
+[3.30277564 6.60277564]
+[4.50277564 7.80277564]
+Gathered BC Test data.
+Dataset size: 162 Test dataset size: 282
+Beginning BC Training . . .
+Epoch 0, Loss 29.153226852416992, Accuracy 0.08708639705882354
+Test Loss 10.923826217651367, Test Accuracy 0.2841880341880342
+Epoch 1, Loss 35.26318359375, Accuracy 0.06456801470588236
+Epoch 2, Loss 46.3411750793457, Accuracy 0.0234375
+Epoch 3, Loss 47.83095932006836, Accuracy 0.05974264705882353
+Epoch 4, Loss 40.98500442504883, Accuracy 0.13120404411764708
+Epoch 5, Loss 47.947105407714844, Accuracy 0.13120404411764708
+Test Loss 12.28038501739502, Test Accuracy 0.2155448717948718
+Epoch 6, Loss 54.98740768432617, Accuracy 0.2915900735294118
+Epoch 7, Loss 59.43950271606445, Accuracy 0.28079044117647056
+Epoch 8, Loss 48.04681396484375, Accuracy 0.13189338235294118
+Epoch 9, Loss 57.9528923034668, Accuracy 0.0234375
+Epoch 10, Loss 48.411773681640625, Accuracy 0.03423713235294118
+Test Loss 4.555375576019287, Test Accuracy 0.2711004273504274
+Epoch 11, Loss 51.133113861083984, Accuracy 0.19944852941176472
+Epoch 12, Loss 45.0552864074707, Accuracy 0.23184742647058823
+Epoch 13, Loss 47.03229904174805, Accuracy 0.25344669117647056
+Epoch 14, Loss 34.411415100097656, Accuracy 0.29756433823529416
+Epoch 15, Loss 53.451419830322266, Accuracy 0.11052389705882354
+Test Loss 5.365431308746338, Test Accuracy 0.2676282051282051
+Epoch 16, Loss 33.410369873046875, Accuracy 0.23184742647058823
+Epoch 17, Loss 7.704456806182861, Accuracy 0.30744485294117646
+Epoch 18, Loss 11.386441230773926, Accuracy 0.22104779411764708
+Epoch 19, Loss 15.438508987426758, Accuracy 0.3648897058823529
+Epoch 20, Loss 10.568673133850098, Accuracy 0.3023897058823529
+Test Loss 5.625401973724365, Test Accuracy 0.2601495726495726
+Epoch 21, Loss 24.913679122924805, Accuracy 0.2495404411764706
+Epoch 22, Loss 38.031192779541016, Accuracy 0.22794117647058823
+Epoch 23, Loss 33.825347900390625, Accuracy 0.2495404411764706
+Epoch 24, Loss 31.54309844970703, Accuracy 0.2603400735294118
+Epoch 25, Loss 28.40435218811035, Accuracy 0.2387408088235294
+Test Loss 6.317829608917236, Test Accuracy 0.2825854700854701
+Epoch 26, Loss 26.055009841918945, Accuracy 0.2426470588235294
+Epoch 27, Loss 19.131296157836914, Accuracy 0.23184742647058823
+Epoch 28, Loss 15.33094310760498, Accuracy 0.2426470588235294
+Epoch 29, Loss 13.2832612991333, Accuracy 0.22104779411764708
+Epoch 30, Loss 6.922616958618164, Accuracy 0.2102481617647059
+Test Loss 1.5842028856277466, Test Accuracy 0.2922008547008547
+Epoch 31, Loss 10.441421508789062, Accuracy 0.23207720588235295
+Epoch 32, Loss 15.780989646911621, Accuracy 0.13097426470588236
+Epoch 33, Loss 14.023979187011719, Accuracy 0.1996783088235294
+Epoch 34, Loss 17.32745933532715, Accuracy 0.18497242647058823
+Epoch 35, Loss 14.112459182739258, Accuracy 0.1996783088235294
+Test Loss 1.800028681755066, Test Accuracy 0.23370726495726496
+Epoch 36, Loss 6.560176849365234, Accuracy 0.2642463235294118
+Epoch 37, Loss 8.80459976196289, Accuracy 0.3189338235294118
+Epoch 38, Loss 14.068735122680664, Accuracy 0.26999080882352944
+Epoch 39, Loss 17.36391258239746, Accuracy 0.26999080882352944
+Epoch 40, Loss 16.164548873901367, Accuracy 0.2915900735294118
+Test Loss 2.1993250846862793, Test Accuracy 0.2844551282051282
+Epoch 41, Loss 9.7899808883667, Accuracy 0.2426470588235294
+Epoch 42, Loss 11.707647323608398, Accuracy 0.2642463235294118
+Epoch 43, Loss 11.000484466552734, Accuracy 0.2966452205882353
+Epoch 44, Loss 15.230294227600098, Accuracy 0.23184742647058823
+Epoch 45, Loss 13.821626663208008, Accuracy 0.23184742647058823
+Test Loss 2.3853704929351807, Test Accuracy 0.3178418803418803
+Epoch 46, Loss 9.370841979980469, Accuracy 0.3150275735294118
+Epoch 47, Loss 10.10384464263916, Accuracy 0.36397058823529416
+Epoch 48, Loss 5.597470283508301, Accuracy 0.3864889705882353
+Epoch 49, Loss 6.569658279418945, Accuracy 0.3540900735294118
+Epoch 50, Loss 5.58463191986084, Accuracy 0.3609834558823529
+Test Loss 0.35496124625205994, Test Accuracy 0.36191239316239315
+Epoch 51, Loss 2.703096866607666, Accuracy 0.28079044117647056
+Epoch 52, Loss 2.161182403564453, Accuracy 0.3023897058823529
+Epoch 53, Loss 1.7242450714111328, Accuracy 0.31318933823529416
+Epoch 54, Loss 1.7292519807815552, Accuracy 0.3239889705882353
+Epoch 55, Loss 1.9752497673034668, Accuracy 0.2915900735294118
+Test Loss 0.3789638876914978, Test Accuracy 0.2938034188034188
+Epoch 56, Loss 1.7796787023544312, Accuracy 0.10661764705882354
+Epoch 57, Loss 1.7807109355926514, Accuracy 0.08318014705882354
+Epoch 58, Loss 1.7811452150344849, Accuracy 0.0939797794117647
+Epoch 59, Loss 1.7811989784240723, Accuracy 0.11557904411764706
+Epoch 60, Loss 1.7832540273666382, Accuracy 0.0939797794117647
+Test Loss 0.3978867828845978, Test Accuracy 0.05101495726495727
+Epoch 61, Loss 1.782214879989624, Accuracy 0.07238051470588236
+Epoch 62, Loss 1.787071704864502, Accuracy 0.06158088235294118
+Epoch 63, Loss 1.7815848588943481, Accuracy 0.0939797794117647
+Epoch 64, Loss 1.7769575119018555, Accuracy 0.07238051470588236
+Epoch 65, Loss 1.7730666399002075, Accuracy 0.11557904411764706
+Test Loss 0.3985641300678253, Test Accuracy 0.04941239316239316
+Epoch 66, Loss 1.7832623720169067, Accuracy 0.07238051470588236
+Epoch 67, Loss 1.778429388999939, Accuracy 0.0939797794117647
+Epoch 68, Loss 1.7845350503921509, Accuracy 0.0939797794117647
+Epoch 69, Loss 1.7763103246688843, Accuracy 0.0939797794117647
+Epoch 70, Loss 1.7907962799072266, Accuracy 0.06158088235294118
+Test Loss 0.3953532576560974, Test Accuracy 0.050213675213675216
+Epoch 71, Loss 1.7867993116378784, Accuracy 0.10477941176470588
+Epoch 72, Loss 1.7754677534103394, Accuracy 0.10477941176470588
+Epoch 73, Loss 1.7870123386383057, Accuracy 0.06158088235294118
+Epoch 74, Loss 1.7744799852371216, Accuracy 0.11557904411764706
+Epoch 75, Loss 1.7815378904342651, Accuracy 0.07238051470588236
+Test Loss 0.39871665835380554, Test Accuracy 0.050213675213675216
+Epoch 76, Loss 1.781503677368164, Accuracy 0.08318014705882354
+Epoch 77, Loss 1.7765746116638184, Accuracy 0.08318014705882354
+Epoch 78, Loss 1.781113862991333, Accuracy 0.07238051470588236
+Epoch 79, Loss 1.7884620428085327, Accuracy 0.07238051470588236
+Epoch 80, Loss 1.7774758338928223, Accuracy 0.0939797794117647
+Test Loss 0.3970794975757599, Test Accuracy 0.05101495726495727
+Epoch 81, Loss 1.7786680459976196, Accuracy 0.10477941176470588
+Epoch 82, Loss 1.7814046144485474, Accuracy 0.08318014705882354
+Epoch 83, Loss 1.7880216836929321, Accuracy 0.08318014705882354
+Epoch 84, Loss 1.7880185842514038, Accuracy 0.08318014705882354
+Epoch 85, Loss 1.778427243232727, Accuracy 0.07238051470588236
+Test Loss 0.39683181047439575, Test Accuracy 0.05181623931623932
+Epoch 86, Loss 1.7756168842315674, Accuracy 0.1371783088235294
+Epoch 87, Loss 1.7868096828460693, Accuracy 0.08318014705882354
+Epoch 88, Loss 1.781259536743164, Accuracy 0.0939797794117647
+Epoch 89, Loss 1.7840062379837036, Accuracy 0.07238051470588236
+Epoch 90, Loss 1.782447338104248, Accuracy 0.0939797794117647
+Test Loss 0.40013599395751953, Test Accuracy 0.04941239316239316
+Epoch 91, Loss 1.7780158519744873, Accuracy 0.07238051470588236
+Epoch 92, Loss 1.7849581241607666, Accuracy 0.08318014705882354
+Epoch 93, Loss 1.7826985120773315, Accuracy 0.08318014705882354
+Epoch 94, Loss 1.7766352891921997, Accuracy 0.08318014705882354
+Epoch 95, Loss 1.7830907106399536, Accuracy 0.0939797794117647
+Test Loss 0.3992721736431122, Test Accuracy 0.04861111111111111
+Epoch 96, Loss 1.788082480430603, Accuracy 0.07238051470588236
+Epoch 97, Loss 1.7946908473968506, Accuracy 0.07238051470588236
+Epoch 98, Loss 1.7839913368225098, Accuracy 0.07238051470588236
+Epoch 99, Loss 1.7874966859817505, Accuracy 0.0939797794117647
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 52, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 37, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 354, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 324, in bc
+    axs[0].plot(losses)
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\axes\_axes.py", line 1688, in plot
+    lines = [*self._get_lines(*args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\axes\_base.py", line 311, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\axes\_base.py", line 496, in _plot_args
+    x, y = index_of(xy[-1])
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\cbook\__init__.py", line 1661, in index_of
+    y = _check_1d(y)
+        ^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\matplotlib\cbook\__init__.py", line 1353, in _check_1d
+    return np.atleast_1d(x)
+           ^^^^^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 200, in atleast_1d
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\numpy\core\shape_base.py", line 65, in atleast_1d
+    ary = asanyarray(ary)
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\anaconda3\Lib\site-packages\torch\_tensor.py", line 1062, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

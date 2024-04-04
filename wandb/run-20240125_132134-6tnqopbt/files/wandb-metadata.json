@@ -1,0 +1,56 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-01-25T18:21:35.760881",
+    "startedAt": "2024-01-25T18:21:34.907737",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-c",
+        "bc"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\tomda\\Desktop\\symmetry_learning\\symmetry_shift_runner.py",
+    "codePathLocal": "symmetry_shift_runner.py",
+    "codePath": "symmetry_shift_runner.py",
+    "git": {
+        "remote": "git@github.com:tkaminsky/symmetry_learning.git",
+        "commit": "ffba65af91d1ba4999bc200beca3888cc6613e10"
+    },
+    "email": "tomdavkam@gmail.com",
+    "root": "C:/Users/tomda/Desktop/symmetry_learning",
+    "host": "tomdavkam",
+    "username": "tomda",
+    "executable": "C:\\Users\\tomda\\anaconda3\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3195.0,
+        "min": 0.0,
+        "max": 4001.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3195.0,
+            "min": 0.0,
+            "max": 4001.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 794.588981628418,
+            "used": 657.2137908935547
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.21628189086914
+    }
+}

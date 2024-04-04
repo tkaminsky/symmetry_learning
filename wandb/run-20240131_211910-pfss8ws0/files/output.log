@@ -1,0 +1,27 @@
+I moved the objects to:
+[7.20277564 4.20277564]
+[7.80277564 6.20277564]
+I moved the objects to:
+[6.60277564 6.90277564]
+[5.40277564 1.80277564]
+C:\Users\tomda\Desktop\symmetry_learning\helpers\algos.py:72: RuntimeWarning: invalid value encountered in scalar divide
+  return (np.dot(u, v) / np.sqrt(np.dot(v, v)))
+I moved the objects to:
+[1.80277564 7.30277564]
+[2.70277564 2.10277564]
+Traceback (most recent call last):
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 51, in <module>
+    main(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 36, in main
+    bc_control(config)
+  File "C:\Users\tomda\Desktop\symmetry_learning\symmetry_shift_runner.py", line 17, in bc_control
+    bcRunner(env)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 279, in bcRunner
+    bc(env, model)
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 139, in bc
+    states, actions = traj_to_sa_pairs(trajectories)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomda\Desktop\symmetry_learning\algos\bc.py", line 124, in traj_to_sa_pairs
+    counter += 1
+    ^^^^^^^
+KeyboardInterrupt
